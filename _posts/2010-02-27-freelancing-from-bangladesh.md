@@ -1,5 +1,5 @@
 ---
-title: freelancing-from-bangladesh
+title: Freelancing from Bangladesh
 author: admin
 layout: post
 categories:
