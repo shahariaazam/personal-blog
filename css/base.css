@@ -118,9 +118,7 @@ blockquote {
 h1 {
     text-transform: uppercase;
     font-size: 26px;
-    margin: 40px -30px 30px -30px;
-    padding: 15px 30px 15px 23px;
-    border-left: 7px solid #eee;
+    padding: 7px 5px 5px 0px;
     font-weight: 400;
     color: #444;
 }
@@ -162,7 +160,7 @@ h3 {
     font-style: normal;
 }
 .content p {
-    font-size: 20px;
+    font-size: 18px;
     line-height: 160%;
     margin: 25px 0;
     text-align: justify;
@@ -291,4 +289,124 @@ a {
     width: 125px;
     border: none;
     padding: 0;
+}
+/* @group .post-* */
+
+.post-world {
+    margin: 0px 20px 0px 50px;
+    float: left;
+    width: 640px;
+}
+
+.post-item {
+    margin-bottom: 100px;
+}
+
+/* @group .post-title */
+
+.post-title {
+    position: relative;
+}
+.post-title a {
+    color: #000;
+    border-bottom: 2px solid transparent;
+}
+.post-title a:hover {
+
+}
+
+/* @end */
+
+/* @group .post-title-sub */
+
+.post-title-sub {
+    color: #bbb;
+    font-size: 13px;
+    position: absolute;
+    bottom: -10px;
+    left: 0px;
+}
+.post-title-sub a {
+    color: #bbb;
+}
+.post-title-sub a:hover {
+    border-bottom: 2px solid #F8F8F8 !important;
+}
+.post-title-sub .hash {
+    color: #eee;
+    font-style: normal;
+}
+
+/* @end */
+
+.post-content {
+    font-size: 18px;
+    line-height: 150%;
+    font-family: 'AvenirNextLTW01-Regular', Helvetica, sans-serif;
+}
+.post-content p {
+    text-align: justify;
+}
+
+/* @group .post-meta */
+
+.post-meta {
+    float: left;
+    width: 40px;
+    margin-top: 2px;
+    margin-left: -50px;
+    border-right: 1px solid #E6E6E6;
+}
+.post-meta p {
+    margin: 0px;
+}
+.post-meta .date {
+    color: #cdcdcd;
+    text-align: center;
+    line-height: 1.1em;
+    margin: 8px 0px 5px 0px;
+}
+.post-meta .date i {
+    font-style: normal;
+    font-size: 24px;
+    display: block;
+}
+.post-meta .date b {
+    font-family: 'ColaborateLightRegular', 'HelveticaNeue-Light', 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', FreeSans, sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    display: block;
+}
+
+/* @end */
+
+.post-comments {
+}
+
+/* @group .post-comment-link */
+
+.post-comment-link {
+
+}
+.post-comment-link a {
+    color: #939393;
+}
+
+/* @end */
+
+/* @group .post-paginator */
+
+.post-paginator {
+    text-align: center;
+    position: relative;
+    width: 860px;
+    margin: 0px auto 70px auto;
+}
+.post-paginator .older {
+    position: absolute;
+    left: 0px;
+}
+.post-paginator .newer {
+    position: absolute;
+    right: 0px;
 }
