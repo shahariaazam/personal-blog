@@ -10,8 +10,8 @@
         {% endif %}
         {{ site.name }}
     </title>
-    <meta name="author" content="{{ site.name }}"/>
-    <link rel="alternate" type="application/rss+xml" href="/atom.xml" />
+    <meta name="author" content="{{ site.author }}"/>
+    <link rel="alternate" type="application/rss+xml" href="/atom.xml"/>
     <meta name="description" content="{{ site.description }}"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link type="text/css" rel="stylesheet"
@@ -27,6 +27,15 @@
         hljs.initHighlightingOnLoad();
     </script>
     <link rel="apple-touch-icon" href="/apple-touch-icon.png"/>
+    <!--Open Graph Protocol-->
+    <meta property="og:site_name" content="{{ site.description }}"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:locale" content="en_US"/>
+    <meta property="fb:app_id" content="{{ site.fbAppId }}"/>
+    <meta property="og:url" content="http://{{ site.url }}{{ page.url }}"/>
+    <meta property="og:title" content="{{ page.title }}"/>
+    <meta property="og:description" content="{{ page.ogDescription }}"/>
+    <!--# end-->
 </head>
 
 <body>
@@ -37,10 +46,10 @@
         </section>
 
         <ul class="menu">
-            <li><a href="/about">About</a></li>
+            <li><a href="{{ site.mainSiteHome }}/about">About</a></li>
             <li><a href="#">Projects</a></li>
             <li><a href="http://shahariaazam.github.io/my-resume/" target="_blank">Résumé</a></li>
-            <li><a href="#">Blog</a></li>
+            <li><a href="http://{{ site.url }}">Blog</a></li>
         </ul>
 
         <ul class="social">
@@ -63,8 +72,9 @@
 
         <h1 class="post-title">
             <a href="{{ post.url }}">{{ page.title }}</a>
+
             <div class="post-title-sub">
-                by Shaharia Azam
+                by <a href="{{ site.authorUrl }}">{{ site.author }}</a>
             </div>
         </h1>
 
@@ -80,13 +90,16 @@
             var disqus_shortname = 'blogofshahariaazam'; // required: replace example with your forum shortname
 
             /* * * DON'T EDIT BELOW THIS LINE * * */
-            (function() {
-                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            (function () {
+                var dsq = document.createElement('script');
+                dsq.type = 'text/javascript';
+                dsq.async = true;
                 dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
                 (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
             })();
         </script>
-        <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by
+            Disqus.</a></noscript>
         <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 
         </p>
@@ -117,7 +130,8 @@
 
     /* * * DON'T EDIT BELOW THIS LINE * * */
     (function () {
-        var s = document.createElement('script'); s.async = true;
+        var s = document.createElement('script');
+        s.async = true;
         s.type = 'text/javascript';
         s.src = '//' + disqus_shortname + '.disqus.com/count.js';
         (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
