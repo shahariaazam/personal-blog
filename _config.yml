@@ -1,0 +1,16 @@
+markdown:      maruku
+markdown_ext:  markdown,mkd,mkdn,md
+pygments: true
+permalink: /posts/:title
+auto: true
+rdiscount:
+  extensions: [smart]
+
+name: Shaharia Azam
+url: blog.shahariaazam.com
+description: Personal website of Shaharia Azam
+twitter: shaharia
+github: shahariaazam
+facebook: shaharia.azam
+bannermain: banner_horizontal.jpg
+#gravatar_url: nil
