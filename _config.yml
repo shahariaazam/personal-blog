@@ -2,10 +2,9 @@ markdown:      maruku
 markdown_ext:  markdown,mkd,mkdn,md
 pygments: true
 permalink: /:title
-auto: true
 rdiscount:
-  extensions: [smart]
-
+  extensions: [smart, Kramdown]
+paginate: 10
 name: Shaharia Azam
 url: blog.shahariaazam.com
 description: Personal website of Shaharia Azam

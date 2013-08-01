@@ -1,0 +1,44 @@
+---
+layout: homepage
+title: "Personal website of Shaharia Azam"
+---
+{% for post in paginator.posts %}
+<article>
+    <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+    <span class="meta"> - {{ post.date | date: "%d %b %Y" }}</span>
+    <div class="content-area">
+        <p class="lead">
+            {{ post.content }}
+        </p>
+    </div>
+</article>
+<br><br>
+{% endfor %}
+<!-- Pagination links -->
+<div id="post-pagination" class="pagination">
+    <ul class="pages">
+        <li class="page">
+            {% if paginator.page == 1 %}
+            <span class="current-page">1</span>
+            {% else %}
+            <a href="/">1</a>
+            {% endif %}
+        </li>
+
+        {% for count in (2..paginator.total_pages) %}
+        <li class="page">
+            {% if count == paginator.page %}
+            <span class="current-page">{{ count }}</span>
+            {% else %}
+            <a href="/page{{ count }}">{{ count }}</a>
+            {% endif %}
+        </li>
+        {% endfor %}
+    </ul>
+
+</div>
+
+
+
+
+

@@ -1,8 +1,8 @@
 ---
 title: welcome-to-my-blog
 author: admin
-layout: post
-permalink: /?p=9
+layout: homepage
+permalink: welcome-to-my-blog
 categories:
   - General
 ---

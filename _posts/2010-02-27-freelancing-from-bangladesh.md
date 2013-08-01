@@ -1,6 +1,6 @@
 ---
 title: Freelancing from Bangladesh
-layout: post
+layout: homepage
 ogDescription: How to do freelancing in Bangladesh
 categories:
   - General
