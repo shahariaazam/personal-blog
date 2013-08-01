@@ -70,13 +70,12 @@ body, p, code, pre{
     -webkit-box-shadow: 3px 3px 30px #dddddd;
     -moz-box-shadow: 3px 3px 30px #dddddd;
 }
-.zone-content pre, .zone-content code{
-    box-shadow: 1px 1px 10px #dddddd;
-    -webkit-box-shadow: 1px 1px 10px #dddddd;
-    -moz-box-shadow: 1px 1px 10px #dddddd;
-}
 
 h1, h2, h3, h4, h5, h6{
     font-weight: 600;
     color: #000000;
+}
+
+.zone-content code{
+    padding: 4px;
 }
