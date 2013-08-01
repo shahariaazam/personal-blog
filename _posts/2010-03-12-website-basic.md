@@ -8,6 +8,9 @@ categories:
 ---
 ##Basically how a website work?
 
+![How your website works](/assets/img/public/hosting-diagram-300x296.gif)
+
+
 `Step 01`
 
 Type a domain name in your browser
@@ -41,7 +44,7 @@ Hosting Server will examine your request & Execute your request & will return yo
 
 Domain name is an online identity which deserves your uniqueness. Domain name is always unique. Every website has a domain name that address the website?s name & identity.
 
-
+![What is domain name](/assets/img/public/WhatIsDomain.png)
 
 ####Domain Name Registration
 
