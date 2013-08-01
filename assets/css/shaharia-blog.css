@@ -99,7 +99,7 @@
 /* Google Font */
 
 body{
-    font-family: 'Pathway Gothic One', sans-serif;
+    font-family: 'Oswald', sans-serif;
     background-color: #ffffff;
 }
 
@@ -115,4 +115,9 @@ body{
 
 pre{
     border: none;
+}
+
+p{
+    margin-bottom: 0px;
+    font-family: 'Oswald', sans-serif;
 }

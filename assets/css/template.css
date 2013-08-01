@@ -16,7 +16,7 @@ a:hover, a:focus {
 
 body {
     /*background-color:#eeeee6;*/
-    font-family: 'Pathway Gothic One', sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-size: 18px;
     line-height: 30px;
 }
@@ -40,7 +40,7 @@ code {
 
 h1 {
     /*color:#9b7188;*/
-    font-family: 'Pathway Gothic One', sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-size: 34px;
     font-weight: 300;
     text-align: center;
@@ -70,7 +70,7 @@ ol, ul {
 }
 
 p {
-    margin-bottom: 30px;
+    margin-bottom: 0px;
 }
 
 /***** 2. Layout *****/
@@ -186,7 +186,7 @@ body {
 
 .ww-nav a {
     /*color:#494e55;*/
-    font-family: 'Pathway Gothic One', sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-size: 20px;
     font-weight: 300;
     line-height: 14px;
@@ -245,7 +245,7 @@ button {
     -moz-border-radius: 5px;
     border-radius: 5px;
     /*color:#eeeee6;*/
-    font-family: 'Pathway Gothic One', sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-size: 17px;
     height: 55px;
     margin-top: 15px;
@@ -358,7 +358,7 @@ a.button-link {
     -moz-border-radius: 5px;
     border-radius: 5px;
     /*color:#eeeee6;*/
-    font-family: 'Pathway Gothic One', sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-size: 17px;
     text-transform: uppercase;
     text-decoration: none;
@@ -401,7 +401,7 @@ a.button-link.foricon {
 }
 
 .pagination {
-    font-family: 'Pathway Gothic One', sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-size: 16px;
     text-align: center;
     margin-top: 50px;
@@ -672,7 +672,7 @@ ul.comments {
 
 .comment-form legend#add-comment, h2.comment-count {
     /*color:#9b7188;*/
-    font-family: 'Pathway Gothic One', sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-size: 30px;
     font-weight: 300;
     margin-bottom: 30px;
@@ -698,14 +698,14 @@ aside.aside-column article.widget:first-child {
 }
 
 aside.aside-column article.widget header h1 {
-    font-family: 'Pathway Gothic One', sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-size: 30px;
     font-weight: 300;
 }
 
 .triple article.widget header h1,
 .quad article.widget header h1 {
-    font-family: 'Pathway Gothic One', sans-serif; /* Condensed */
+    font-family: 'Oswald', sans-serif; /* Condensed */
     font-size: 21px;
     margin-bottom: 13px;
     text-transform: none;

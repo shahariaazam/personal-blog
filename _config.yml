@@ -6,12 +6,11 @@ rdiscount:
   extensions: [smart, Kramdown]
 paginate: 10
 name: Shaharia Azam
-url: blog.shahariaazam.com
 description: Personal website of Shaharia Azam
 twitter: shaharia
 github: shahariaazam
 facebook: shaharia.azam
-mainSiteHome: http://v2.shahariaazam.com
+mainSiteHome: http://blog.shahariaazam.com
 bannermain: banner_horizontal.jpg
 author: Shaharia Azam
 authorUrl: http://www.shahariaazam.com
