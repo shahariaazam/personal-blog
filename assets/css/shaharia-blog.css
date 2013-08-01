@@ -58,7 +58,7 @@ p{
     margin-bottom: 0px;
 }
 
-body, p, code, pre{
+body, p{
     font-family: 'Oswald', sans-serif;
     font-weight: 300;
 }
