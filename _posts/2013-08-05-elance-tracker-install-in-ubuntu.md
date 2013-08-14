@@ -13,6 +13,6 @@ To install `Adobe Air` just type the following command in your terminal:
 
 {% highlight bash %}
 sudo apt-get install adobeair
-{% end highlight %}
+{% endhighlight %}
 
 And now click again on elance tracker and enjoy your working with elance.
