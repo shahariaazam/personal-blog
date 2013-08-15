@@ -1,0 +1,36 @@
+{% include header.html %}
+
+<body>
+
+<div class="container">
+
+    {% include navigation.html %}
+
+    <hr>
+
+    <div class="row main-content">
+        <div class="span8 zone-content">
+            <article>
+                <h1><a href="{{ post.url }}">{{ page.title }}</a></h1>
+                <span class="meta"> - {{ page.date | date: "%d %b %Y" }}</span>
+
+                <div class="content-area">
+                    <p class="lead">
+                        {{ content }}
+                    </p>
+                    <hr>
+                </div>
+            </article>
+        </div>
+
+        {% include sidebar.html %}
+
+    </div>
+
+    <hr>
+    {% include footer.html %}
+
+</div>
+<!-- End Container -->
+
+{% include footer_script.html %}

@@ -1,0 +1,13 @@
+<article class="widget-search-form widget">
+    <header>
+        <h1>Search</h1>
+    </header>
+    <!--Search result will be provided by Google. Search result will be started after when google will crawl the page-->
+    <form action="http://www.google.com/search" class="search-form" method="get" target="_blank">
+        <fieldset>
+            <input id="q" name="q" type="text" value="">
+            <input type="hidden" name="q" value="site:{{ site.url }}">
+            <button type="submit">Go</button>
+        </fieldset>
+    </form>
+</article>

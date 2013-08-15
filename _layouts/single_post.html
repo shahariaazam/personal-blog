@@ -1,84 +1,15 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>
-<html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>
-<html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>
-<html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!-->
-<html class="no-js" lang="en"> <!--<![endif]-->
-
-<meta http-equiv="content-type" content="text/html;charset=utf-8">
-<head>
-    <meta charset="UTF-8">
-    <title>
-        {% if page.title %}
-        {{ page.title }} &ndash;
-        {% endif %}
-        {{ site.name }}
-    </title>
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/assets/css/bootstrap-responsive.min.css" rel="stylesheet">
-    <link href="/assets/css/socialicons.css" rel="stylesheet">
-    <link href="/assets/css/glyphicons.css" rel="stylesheet">
-    <link href="/assets/css/halflings.css" rel="stylesheet">
-    <link href="/assets/css/template.css" rel="stylesheet">
-    <link href="/assets/css/color-classic.css" rel="stylesheet" id="colorcss">
-    <link href="/assets/css/github.css" rel="stylesheet">
-
-    <link href='http://fonts.googleapis.com/css?family=Oswald:300' rel='stylesheet' type='text/css'>
-
-    <link href="/assets/css/shaharia-blog.css" rel="stylesheet">
-
-    <script src="/assets/js/modernizr.js"></script>
-    <script src="/assets/js/highlight.pack.js"></script>
-
-    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
-    <![endif]-->
-    <script>hljs.initHighlightingOnLoad();</script>
-
-    <link rel="author" href="https://plus.google.com/114541364064474970092" />
-    <!-- @authorship -->
-    <!--Open Graph Protocol-->
-    <meta property="og:site_name" content="{{ site.description }}"/>
-    <meta property="og:type" content="article"/>
-    <meta property="og:locale" content="en_US"/>
-    <meta property="fb:app_id" content="{{ site.fbAppId }}"/>
-    <meta property="og:url" content="http://{{ site.url }}{{ page.url }}"/>
-    <meta property="og:title" content="{{ page.title }}"/>
-    <meta property="og:image" content="/images/logo.png"/>
-    <meta property="og:description" content="{{ page.ogDescription }}"/>
-
-</head>
+{% include header.html %}
 
 <body>
 
 <div class="container">
 
-    <div class="masthead clearfix">
-        <a href="http://blog.shahariaazam.com"></a>
-
-        <h1 class="pull-left"><a href="/">&lt;! shaharia-azam &gt;</a></h1>
-        <ul id="nav" class="nav ww-nav pull-right hidden-phone">
-            <li class="active"><a href="/">Home</a></li>
-            <li class="active"><a href="#">Project</a></li>
-            <li class="active"><a href="#">About</a></li>
-            <li class="active"><a href="#">Blog</a></li>
-            <li class="active"><a href="#">Contact</a></li>
-        </ul>
-
-
-    </div>
+    {% include navigation.html %}
 
     <hr>
 
     <div class="row main-content">
-        <div class="offset2 span8 zone-content">
+        <div class="span8 zone-content">
             <article>
                 <h1><a href="{{ post.url }}">{{ page.title }}</a></h1>
                 <hr style="padding: 0px; margin: 0px;">
@@ -111,31 +42,20 @@
             </article>
             <br><br>
         </div>
+        <aside id="aside-right" class="aside-column span3 well">
+            {% include sidebar_search.html %}
+            {% include sidebar_page.html %}
+            {% include sidebar_category.html %}
+            {% include sidebar_tag.html %}
+        </aside>
     </div>
 
     <hr>
-    <div class="row">
-        <div class="copyright span6">Copyright 2013 - Shaharia Azam</div>
-        <div class="span6 pull-right" style="text-align: right;">
-                    <a href="#"><i class="smicon-rss"></i></a>
-                    <a href="#"><i class="smicon-twitter"></i></a>
-                    <a href="#"><i class="smicon-google"></i></a>
-                    <a href="https://github.com/{{ site.github }}"><i class="smicon-github"></i></a>
-                    <a href="#"><i class="smicon-reddit"></i></a>
-        </div>
-    </div>
+
+    {% include footer.html %}
 
 </div>
 <!-- End Container -->
 
 
-<!-- Le javascript
-================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-<script src="/assets/js/jquery-1.9.1.js"></script>
-<script src="/assets/js/bootstrap.js"></script>
-<script src="/assets/js/tinynav.js"></script>
-<script src="/assets/js/template.js"></script>
-
-</body>
-</html>
+{% include footer_script.html %}

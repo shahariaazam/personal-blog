@@ -1,0 +1,8 @@
+<article class="widget-search-form widget">
+    <header>
+        <h1>Categories</h1>
+    </header>
+    {% for category in site.categories %}
+        <a href="/category#{{ category | first | slugize }}">{{ category | first }}</a> &raquo;
+    {% endfor %}
+</article>
