@@ -27,4 +27,4 @@ The `base64` encoded string and CSS `@font-face` code snippet given below &#58;
 <br />
 
 I used http://www.opinionatedgeek.com/dotnet/tools/base64encode/ to encode the font file. But remember you need encoded string for both `woff` and `truetype (ttf)`.
-So now your document will be easily converted to PDF by `wkhtmltopdf` tools.
+So now your document will be easily converted to PDF by [wkhtmltopdf](https://code.google.com/p/wkhtmltopdf/) tools.
