@@ -1,5 +1,5 @@
 ---
-title: Using nth-child CSS selctors
+title: Using nth-child CSS selectors
 layout: single_post
 ogDescription: Learn how to use nth-child CSS selectors for designing your HTML document and make your site more interactive and user-friendly. No javascript required. CSS can do this job. Read it and learn how to use it.
 categories: [CSS, Web Development]
