@@ -1,7 +1,7 @@
 ---
 title: Create PhpStorm luncher and terminal command on Ubuntu
 layout: single_post
-ogDescription: Create PHPStorm one-click luncher and shortcut terminal command to run PhpStorm PHP IDE more quickly. Easy steps. Learn how to create luncher and enjoy PHP coding with Jetbrains PhpStorm.
+ogDescription: Create PHPStorm one-click luncher on Ubuntu and shortcut terminal command to run PhpStorm PHP IDE more quickly. Easy steps. Learn how to create luncher and enjoy PHP coding with Jetbrains PhpStorm on Ubuntu.
 categories: [Editor]
 tags: [PhpStorm, Editor, Ubuntu]
 ---
