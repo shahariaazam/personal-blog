@@ -44,3 +44,9 @@ TargetEnvironment=Unity
 {% endhighlight %}
 
 Save this file and restart your terminal. And type the following command to run **PhpStorm**.
+
+{% highlight bash %}
+sudo phpstorm
+{% endhighlight %}
+
+Happy PHP-ing.
