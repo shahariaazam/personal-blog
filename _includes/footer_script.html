@@ -8,7 +8,8 @@
     //$('#myModal').modal('show');
 </script>
 <!-- Modal -->
-<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="top: 30%;">
+<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"
+     style="top: 30%;">
     <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
         <h3 id="myModalLabel">Please support the site</h3>
@@ -22,10 +23,11 @@
                             class="twitter-follow-button twitter-follow-button"
                             src="http://platform.twitter.com/widgets/follow_button.1375828408.html#_=1376848056540&amp;id=twitter-widget-0&amp;lang=en&amp;screen_name=shaharia&amp;show_count=false&amp;show_screen_name=true&amp;size=m"
                             allowtransparency="true" frameborder="0" scrolling="no"></iframe>
-            </span>
+                    </span>
                 </td>
                 <td style="border: 0px solid black;">
                     <h3>Facebook</h3>
+
                     <div id="fb-root"></div>
                     <div fb-xfbml-state="rendered" class="fb-like fb_edge_widget_with_comment fb_iframe_widget"
                          data-href="https://www.facebook.com/shahariaazamweb" data-send="false" data-width="450"
@@ -34,7 +36,7 @@
                             class="fb_ltr" title="Like this content on Facebook."
                             style="border: medium none; overflow: hidden; height: 21px; width: 76px;"
                             name="f336ef9d37939e6" id="f26283550310d3" scrolling="no"></iframe></span></div>
-            </span>
+                    </span>
                 </td>
                 <td style="border: 0px solid black;">
                     <h3>Google+</h3>
@@ -52,5 +54,24 @@
     </div>
 </div>
 
+<!--Google Analytics-->
+<script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-15314041-1']);
+    _gaq.push(['_setDomainName', 'shahariaazam.com']);
+    _gaq.push(['_trackPageview']);
+
+    (function () {
+        var ga = document.createElement('script');
+        ga.type = 'text/javascript';
+        ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ga, s);
+    })();
+
+</script>
+<!--@Google Analytics-->
 </body>
 </html>
