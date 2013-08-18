@@ -1,48 +1,15 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>
-<html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>
-<html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>
-<html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!-->
-<html class="no-js" lang="en"> <!--<![endif]-->
-
-<meta http-equiv="content-type" content="text/html;charset=utf-8">
-<head>
-    <meta charset="UTF-8">
-    <title>Blog of {{ site.author }}</title>
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/assets/css/bootstrap-responsive.min.css" rel="stylesheet">
-    <link href="/assets/css/socialicons.css" rel="stylesheet">
-    <link href="/assets/css/glyphicons.css" rel="stylesheet">
-    <link href="/assets/css/halflings.css" rel="stylesheet">
-    <link href="/assets/css/template.css" rel="stylesheet">
-    <link href="/assets/css/color-classic.css" rel="stylesheet" id="colorcss">
-
-    <link href="/assets/css/shaharia-blog.css" rel="stylesheet">
-
-    <link href="/assets/css/github.css" rel="stylesheet">
-
-    <script src="/assets/js/modernizr.js"></script>
-    <script src="/assets/js/highlight.pack.js"></script>
-
-    <!--Google Site Verification-->
-    <meta name="google-site-verification" content="PX2o2Mdb63PoTVyFtjfpSssn2L6tZpQEESIf4KrJr5U" />
-    <!--@end of Google Site Verification-->
-
-    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
-    <![endif]-->
-    <script>hljs.initHighlightingOnLoad();</script>
-</head>
+{% include header.html %}
 
 <body>
-
+<div id="fb-root"></div>
+<script>(function (d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s);
+    js.id = id;
+    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=497298506979551";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 <div class="container">
 
     <div class="masthead clearfix">
@@ -69,28 +36,9 @@
     </div>
 
     <hr>
-    <div class="row">
-        <div class="copyright span6">Copyright 2013 - Shaharia Azam</div>
-        <div class="span6 pull-right" style="text-align: right;">
-                    <a href="#"><i class="smicon-rss"></i></a>
-                    <a href="#"><i class="smicon-twitter"></i></a>
-                    <a href="#"><i class="smicon-google"></i></a>
-                    <a href="#"><i class="smicon-github"></i></a>
-                    <a href="#"><i class="smicon-reddit"></i></a>
-        </div>
-    </div>
 
+    {% include footer.html %}
 </div>
 <!-- End Container -->
 
-
-<!-- Le javascript
-================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-<script src="/assets/js/jquery-1.9.1.js"></script>
-<script src="/assets/js/bootstrap.js"></script>
-<script src="/assets/js/tinynav.js"></script>
-<script src="/assets/js/template.js"></script>
-
-</body>
-</html>
+{% include footer_script.html %}
