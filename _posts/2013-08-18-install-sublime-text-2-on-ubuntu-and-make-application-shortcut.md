@@ -31,8 +31,14 @@ If you want to write `sublime` command only to run `Sublime Text 2` then you nee
 sudo ln -s /opt/Sublime\ Text\ 2/sublime_text /usr/bin/sublime
 {% endhighlight %}
 
-Now to create luncher in Ubuntu Unity we just need to create `.desktop` file in **/usr/share/applications** with the following snippet &#58;
+Now to create luncher in Ubuntu Unity we just need to create `sublime.desktop` file in **/usr/share/applications** with the following snippet &#58;
 
+Create `sublime.desktop` file by typing the following command &#58;
+{% highlight bash %}
+sudo sublime /usr/share/applications/sublime.desktop
+{% endhighlight %}
+
+Then write the following code in newly created blank text file.
 
 {% highlight bash %}
 [Desktop Entry]
