@@ -2,8 +2,8 @@
 title: Replace img src with jQuery
 layout: single_post
 ogDescription: Learn how to replace any src attribute of img tag with jQuery. Pretty simple and do it with 2 line jquery code.
-categories:
-  - General
+categories: [HTML, JQuery]
+tags: [codes, snippet, tricks, tips]
 ---
 
 Simple we use to show a image by writing the following code&#58;
