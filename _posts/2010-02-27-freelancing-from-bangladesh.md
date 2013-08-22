@@ -2,8 +2,7 @@
 title: Freelancing from Bangladesh
 layout: single_post
 ogDescription: How to do freelancing in Bangladesh
-categories:
-  - General
+categories: [Freelancing, Outsourcing]
 ---
 
 I think there are many IT professional in Bangladesh whether they can’t get their satisfactory job. I suggest them to be freelancer.? From south asia Indian young professional earn a lot with freelancing.
