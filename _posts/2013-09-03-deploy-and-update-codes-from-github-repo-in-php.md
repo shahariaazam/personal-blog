@@ -68,6 +68,6 @@ Now you have pushed something to your git from your local PC. Now just from your
 
 	The whole process will be done automatically each time when you will push something to your repo. 
 
-Now you can work from anywhere (your personal machine, server machine) to push to that repo by `https://github.com/shahariaazam/deploy-git-php-tutorial.git` command and after changing something whenever you will push your server repo will be updated.
+Now you can work from anywhere (your personal machine, server machine) to push to that repo by `git clone https://github.com/shahariaazam/deploy-git-php-tutorial.git` command and after changing something whenever you will push your server repo will be updated.
 
 Write your comments in this article if you have any question, suggestions. Happy coding!
