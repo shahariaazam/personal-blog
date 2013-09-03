@@ -14,9 +14,9 @@ Sometimes it is pretty important for programmers to auto deploy the latest Git r
 From [https://github.com/new](https://github.com/new) create your GitHub repository.
 ![Create public git in GitHub](/assets/img/public/create-public-git-in-github.png)
 
-#####Step 02 - Create local git repo and Push to github repo
+#####Step 02 - Create local (server machine) git repo and Push to github repo
 
-Now create you local git repo to push that initial files to github repo
+Now create you local (server machine) git repo to push that initial files to github repo
 
 {% highlight bash %}
 sudo mkdir deploy-git-php-tutorial
@@ -67,5 +67,7 @@ git push -u origin master
 Now you have pushed something to your git from your local PC. Now just from your browser go to `http://yourserverurl.com/test.php` in this case I used `http://cloud.shahariaazam.com/deploy-git-php-tutorial/test.php` then you will see that your latest push'ed code has been update to your remote working server and `test.php` is outputting *hello world*. 
 
 	The whole process will be done automatically each time when you will push something to your repo. 
+
+Now you can work from anywhere (your personal machine, server machine) to push to that repo by `https://github.com/shahariaazam/deploy-git-php-tutorial.git` command and after changing something whenever you will push your server repo will be updated.
 
 Write your comments in this article if you have any question, suggestions. Happy coding!
