@@ -87,3 +87,30 @@ h1, h2, h3, h4, h5, h6{
 .zone-content code{
     padding: 4px;
 }
+
+.content-area h1{
+	font-size: 26px;
+}
+
+.content-area h2{
+	font-size: 24px;
+}
+
+.content-area h3{
+	font-size: 23px;
+}
+.content-area h4{
+	font-size: 22px; 
+}
+.content-area h5{
+	font-size: 21px;
+}
+.content-area h6{
+	font-size: 20px;
+}
+
+.content-area p{
+	margin-bottom: 20px;
+	margin-top: 5px;
+	line-height: 30px;
+}
