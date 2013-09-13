@@ -1,5 +1,5 @@
 ---
-title: strtotime() it is not safe to rely error solution
+title: strtotime() it is not safe to rely - error solution
 layout: single_post
 permalink: strtotime-it-is-not-safe-to-rely-error-solution
 ogDescription: When you work with core PHP installation then sometimes your timezone was not configured. That is why you sometime see strtotime() it is not safe to rely error. Read this to solve this error.
