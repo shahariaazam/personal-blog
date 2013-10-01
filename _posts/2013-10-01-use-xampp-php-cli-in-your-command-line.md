@@ -9,7 +9,7 @@ tags: [tutorial, tips]
 To use XAMPP's PHP as default PHP in your command line to execute PHP commands from
 your command line/prompt you have to just follow the simple steps mentioned below&#58;
 
-*[in this tutorial I used UBUNTU as my OS]*
+*in this tutorial I used UBUNTU as my OS*
 
 Open your **terminal** and open **.bashrc** file by following command&#58;
 
@@ -17,7 +17,7 @@ Open your **terminal** and open **.bashrc** file by following command&#58;
 sudo gedit ~/.bashrc
 {% endhighlight %}
 
-If you don't use GUI or **gedit** not installed then you can use **vim** instead of **gedit* like following
+If you don't use GUI or **gedit** not installed then you can use **vim** instead of **gedit** like following
 
 {% highlight bash %}
 sudo vim ~/.bashrc
