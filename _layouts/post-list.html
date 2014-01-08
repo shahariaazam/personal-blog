@@ -1,36 +1,32 @@
 {% include header.html %}
-
 <body>
 
-<div class="container">
+<div id="fb-root"></div>
+<script>(function (d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s);
+    js.id = id;
+    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=497298506979551";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
-    {% include navigation.html %}
+<div class="pure-g-r" id="layout">
+    {% include navigation-side.html %}
 
-    <hr>
+    <div class="pure-u-1">
+        <div class="content">
+            <!-- A wrapper for all the blog posts -->
 
-    <div class="row main-content">
-        <div class="span8 zone-content">
-            <article>
-                <h1><a href="{{ post.url }}">{{ page.title }}</a></h1>
-                <span class="meta"> - {{ page.date | date: "%d %b %Y" }}</span>
+            <div class="posts">
 
-                <div class="content-area">
-                    <p class="lead">
-                        {{ content }}
-                    </p>
-                    <hr>
-                </div>
-            </article>
+                {{content}}
+
+            </div>
+
+            {% include footer_text.html %}
         </div>
-
-        {% include sidebar.html %}
-
     </div>
-
-    <hr>
-    {% include footer.html %}
-
 </div>
-<!-- End Container -->
 
-{% include footer_script.html %}
+{% include footer.html %}

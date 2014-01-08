@@ -1,6 +1,6 @@
 {% include header.html %}
-
 <body>
+
 <div id="fb-root"></div>
 <script>(function (d, s, id) {
     var js, fjs = d.getElementsByTagName(s)[0];
@@ -10,35 +10,23 @@
     js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=497298506979551";
     fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
-<div class="container">
 
-    <div class="masthead clearfix">
-        <a href="http://chris.shahariaazam.com"></a>
+<div class="pure-g-r" id="layout">
+    {% include navigation-side.html %}
 
-        <h1 class="pull-left"><a href="{{ site.url }}">&lt;! shaharia-azam &gt;</a></h1>
-        <ul id="nav" class="nav ww-nav pull-right hidden-phone">
-            <li class="active"><a href="{{ site.url }}">Home</a></li>
-            <li class="active"><a href="#">Project</a></li>
-            <li class="active"><a href="#">About</a></li>
-            <li class="active"><a href="#">Blog</a></li>
-            <li class="active"><a href="#">Contact</a></li>
-        </ul>
+    <div class="pure-u-1">
+        <div class="content">
+            <!-- A wrapper for all the blog posts -->
 
+            <div class="posts">
 
-    </div>
+                {{content}}
 
-    <hr>
+            </div>
 
-    <div class="row main-content">
-        <div class="offset1 span10 zone-content">
-            {{content}}
+            {% include footer_text.html %}
         </div>
     </div>
-
-    <hr>
-
-    {% include footer.html %}
 </div>
-<!-- End Container -->
 
-{% include footer_script.html %}
+{% include footer.html %}

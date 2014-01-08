@@ -1,8 +1,0 @@
-<article class="widget-search-form widget">
-    <header>
-        <h1>Tags</h1>
-    </header>
-    {% for tag in site.tags %}
-    <a href="/tag#{{ tag | first | slugize }}">{{ tag | first }}</a>
-    {% endfor %}
-</article>
