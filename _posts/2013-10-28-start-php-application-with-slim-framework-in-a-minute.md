@@ -83,7 +83,7 @@ Ohh yes, I forget to tell you about the **nginx** configuration for your applica
 
 Just open nginx configuration file from **/etc/nginx/sites-available/default** and add the following default configuration in that file and restart nginx. You're done.
 
-{% highlight bash %}
+{% highlight ApacheConf %}
 server {
         listen       80;
         server_name  yourapplication-name.dev;
