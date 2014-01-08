@@ -2,8 +2,8 @@
 title: Start PHP application with Slim Framework in a minute
 layout: single_post
 ogDescription: Learn how to build an environment to develop a PHP application with Slim framework in a minute to get started for production.
-categories: [Ubuntu, PHP]
-tags: [php, xdebug]
+categories: [nginx, PHP, slim]
+tags: [php, slim]
 ---
 
 I am using **nginx** server for this documentation.
@@ -41,11 +41,7 @@ We will manage and install all the dependencies by our `composer.json`. And now 
     "require": {
         "php": ">=5.3.0",
         "slim/slim": "dev-master",
-        "slim/views": "0.1.*",
-        "twig/twig": "1.*",
-        "propel/propel1": "1.*",
-        "ircmaxell/password-compat": "1.*",
-        "aws/aws-sdk-php": "*"
+        "slim/views": "0.1.*"
     },
     "autoload": {
         "psr-0": {
