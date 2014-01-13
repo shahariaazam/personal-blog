@@ -26,23 +26,19 @@
                         <h2 class="post-title"><a href="{{ post.url }}">{{ page.title }}</a></h2>
 
                         <p class="post-meta">
-                            Published on {{ page.date | date: "%d %b %Y" }}<!--<a
-                class="post-category post-category-js" href="#">JavaScript</a>-->
+                            Published on {{ page.date | date: "%d %b %Y" }}
+                            <br>
+                            <span class='st_fblike_hcount' displayText='Facebook Like'></span>
+                            <span class='st_plusone_hcount' displayText='Google +1'></span>
+                            <span class='st_facebook_hcount' displayText='Facebook'></span>
+                            <span class='st_googleplus_hcount' displayText='Google +'></span>
+                            <span class='st_twitter_hcount' displayText='Tweet'></span>
+                            <span class='st_youtube_hcount' displayText='Youtube Subscribe' st_username='shaharia'></span>
+                            <span class='st_twitterfollow_hcount' displayText='Twitter Follow' st_username='shaharia'></span>
                         </p>
                     </header>
 
                     <div class="post-description">
-                    <script type="text/javascript"><!--
-                        google_ad_client = "pub-7821271673691393";
-                        /* 468x60, created 11/11/10_Homepage_02 */
-                        google_ad_slot = "5223909586";
-                        google_ad_width = 468;
-                        google_ad_height = 60;
-                        //-->
-                        </script>
-                        <script type="text/javascript"
-                                src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
-                        </script>
                         <div class="fb-like" data-href="https://facebook.com/shahariaazamweb" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
                         <p>
                             {{ content }}
