@@ -16,7 +16,7 @@ Now _xdebug_ is installed in your system. Now find exactly where **xdebug.so** f
 
 You have to find it in **/usr/lib/php5/(somewhere in this directory)**
 
-Now after find the xdebug.so you have to open your **php.ini** file and add the following command.
+Now after find the xdebug.so you have to open your **PHP5-FPM**'s _php.ini_ file with `sudo gedit /etc/php5/fpm/php.ini` and add the following command (to locate the xdebug and enabling it).
 
 {% highlight bash %}
 zend_extension=locationOfYourxDebugfile
