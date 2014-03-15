@@ -47,6 +47,6 @@ sudo tar cf yourDestinationDirectory directoriesYouWantToCompress
 
 {% highlight bash %}
 sudo mv YourCompressedDirectory.tar ~/Dropbox (your dropbox directory)
-{% endhighlight }
+{% endhighlight %}
 
 After moving the directory to Dropbox. Dropbox will automatically start uploading your large data. To run few dropbox commands from command line you can download [this file](https://www.dropbox.com/download?dl=packages/dropbox.py). You can learn from [here](http://www.dropboxwiki.com/tips-and-tricks/using-the-official-dropbox-command-line-interface-cli) about how to use commands of this **dropbox.py** script and do few important task for dropbox.
