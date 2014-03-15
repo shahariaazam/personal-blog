@@ -7,7 +7,7 @@ categories: [linux]
 
 To copy files from a server to another server is not a complex task anymore. This blog post will give you a solid and a very easy steps to accomplish this hard task so much easily. To transfer your files from source server to destination server you must have to enable **ssh** in both server. If you haven't, then you can [read it](https://help.ubuntu.com/community/SSH/OpenSSH/Configuring) to enable ssh for your server.
 
-We will do all this copy/paste things with [rsync](http://www.samba.org/rsync/). rSync is really a super useful stuff in this types of case. To write this post I used Ubuntu 13.04 server as my OS. So I think it will work on most *nix OS.
+We will do all this copy/paste things with [rsync](http://www.samba.org/rsync/). rSync is really a super useful stuff in this types of case. To write this post I used Ubuntu 13.04 server as my OS. So I think it will work on most **unix** OS.
 
 So just you have to install rsynch on your source server and desination server by typing the following command:
 
