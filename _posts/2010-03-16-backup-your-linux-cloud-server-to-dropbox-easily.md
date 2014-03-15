@@ -33,7 +33,7 @@ Next, run the Dropbox daemon from the newly created .dropbox-dist folder.
 
 {% highlight bash %}
 sudo ~/.dropbox-dist/dropboxd
-{% highlight bash %}
+{% endhighlight bash %}
 
 **Step 02**
 - Now just compress all of your targeted directories or even you can compress full of your system by following tar command.
