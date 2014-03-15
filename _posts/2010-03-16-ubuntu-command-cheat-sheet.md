@@ -6,7 +6,9 @@ categories: [linux]
 ---
 
 **Show directory size**
+
 {% highlight bash %}
+
 //for specific directory
 du -sh targetedDirectory
 
@@ -15,4 +17,5 @@ du -sh /*
 
 //in kilobytes
 du -sh -k /*
+
 {% endhighlight %}
