@@ -22,6 +22,9 @@ du -sh -k /*
 
 
 **GZIP in a specific location**
+
 {% highlight bash %}
+
 gzip -c yourFilesNeedToGzip > /locationWhereYouWantToSaveGzip/filename.gz
-{% endhighlight }
+
+{% endhighlight %}
