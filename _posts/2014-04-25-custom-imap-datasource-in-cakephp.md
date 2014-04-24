@@ -2,7 +2,7 @@
 title: Custom IMAP Datasource in CakePHP
 layout: single_post
 ogDescription: Learn how to add custom IMAP datasource in your cakephp appliction to connect your mail server with IMAP.
-categories: [Freelancing, Outsourcing]
+categories: [cakephp]
 ---
 
 I searched about **custom imap datasource** for cakephp all over the internet. I got few things but those are for CakePHP 1.x version that is too old. That's why I tweaked few things to make it work for CakePHP 2.x version. Here is my modified and upgraded custom IMAP datasource for your cakephp application.
