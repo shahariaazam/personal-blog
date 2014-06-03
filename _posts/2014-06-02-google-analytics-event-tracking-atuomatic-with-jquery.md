@@ -17,6 +17,7 @@ $(document).ready(function(){
             ga('link', 'click', anchorText, anchorUrl);
         });
     })
+</script>
 {% endhighlight %}
 
 In the above code I am just triggering `ga()` function (analytics function provided by Google analytics js script) when anyone will click any link in the whole documents. Then when user will click on any link (anchor text) then the `ga()` function will be triggered with my custom url, action, text value.
