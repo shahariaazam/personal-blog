@@ -14,7 +14,7 @@ $(document).ready(function(){
             var anchorText = $(this).text();
             var anchorUrl = $(this).attr('href');
 
-            ga('send', 'event', link', 'click', anchorText, anchorUrl);
+            ga('send', 'event', 'link', 'click', anchorText, anchorUrl);
         });
     })
 </script>
