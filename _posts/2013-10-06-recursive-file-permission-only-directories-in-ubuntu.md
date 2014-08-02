@@ -1,8 +1,7 @@
 ---
 title: Recursive file permission to only Directories/Files in Ubuntu
 layout: single_post
-ogDescription: Special but simple tricks about how to set permission on only directories or files
-recursively in Ubuntu
+ogDescription: Learn how to set permission on only directories or files recursively in Ubuntu
 categories: [Tips, Ubuntu]
 ---
 
