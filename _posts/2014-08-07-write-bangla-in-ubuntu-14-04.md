@@ -27,6 +27,6 @@ Now you will have to click on the **+** icon to add **Bengali Unibijoy keyboard*
 
 ![screenshot](http://www.webpagescreenshot.info/i3/53e288bf6cf160-08628765)
 
-Select Bengali (unijoy m17n). That's it. Now according to your keyboard shortcut you can change keyboard layout (Bengali/English) as when you want. Happy bengali writing!
+Select **Bengali (unijoy m17n)**. That's it. Now according to your keyboard shortcut you can change keyboard layout (Bengali/English) as when you want. Happy bengali writing!
 
 After doing the configuration from **Text entry settings** 
