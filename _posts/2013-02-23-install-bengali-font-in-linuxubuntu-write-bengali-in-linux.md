@@ -29,3 +29,4 @@ now you will see a ibus setup window to configure. (see following image)
 
 Select `Unijoy (m17n)` as Input methods from the drop down list. Select it and click on **Add** from the right side. In this same way also add `ispell (m17n)` for **English** support also. select it and add it. Now after adding both `Unijoy` and `ispell` just close the setup dialogue. And you are done!!
 
+If you are using **Ubuntu 14.04 (LTS)** version then please read my another updated post about to [write bangla in Ubuntu 14.04](http://blog.shahariaazam.com/write-bangla-in-ubuntu-14-04)
