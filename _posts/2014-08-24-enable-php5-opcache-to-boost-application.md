@@ -52,4 +52,4 @@ Now you have to restart your apache or if you are using nginx then you have to r
 **Tools to monitor your server's OpCache status**
 Founder of PHP [Rasmus Lerdorf](https://github.com/rlerdorf) developed few snippet to test the OpCache status for your environment.
 You can download that from [here](https://github.com/shahariaazam/opcache-status). Download this repo and put it anywhere in your server and browse **opcache.php** and it will display the current status of your OpCache engine like the following image.
-![Zend OpCache Status Screenshot](http://www.webpagescreenshot.info/i3/53f91012282a12-23784577)
+![Zend OpCache Status Screenshot](http://i.imgur.com/Z7Zp61w.png)
