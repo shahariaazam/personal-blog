@@ -55,4 +55,7 @@ In the "Rules" section set the "path" property to the subdirectory to sync to in
 Now run this awesome tools with this `sudo python src/fileconveyor/fileconveyor/arbitrator.py` command.
 
 _**Note:** If you see any error like Transport class not found or something related to transport class then please install **django-cumulus==1.0.10** package with this command `pip install django-cumulus==1.0.10`. Now again run FileConveyor and it will start syncing_. 
+
 It's cool! huh? Of course it will save you from losing life for codes.
+
+_To stop the fileconveyor process run this **kill -TERM `cat ~/.fileconveyor.pid` command**_
