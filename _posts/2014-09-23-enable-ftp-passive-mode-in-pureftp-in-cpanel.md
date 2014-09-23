@@ -28,3 +28,5 @@ Now if the port number is not opened in your iptables then do the following to e
 sudo iptables -I INPUT -p tcp --dport 49152:65534 -j ACCEPT
 sudo service iptables save
 {% endhighlight %}
+
+[This articles](http://blog.shahariaazam.com/enable-ftp-passive-mode-in-pureftp) also recommended for you to read.
