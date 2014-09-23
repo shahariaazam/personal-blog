@@ -21,3 +21,5 @@ Change that line to the following:
 Save the changes to the configuration file.
 
 Now restart pureFtp and you can connect to your FTP server with Passive mode.
+
+To enable passive mode on your centOS powered cPanel server please read [this post](http://blog.shahariaazam.com/enable-ftp-passive-mode-in-pureftp-in-cpanel)
