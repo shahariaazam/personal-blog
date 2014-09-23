@@ -30,7 +30,7 @@ Name=JetBrains PhpStorm
 # From Ubuntu's language-pack-kde-XX-base packages, version 9.04-20090413.
 GenericName=Text Editor
 
-Exec=sublime
+Exec=phpstorm
 Terminal=false
 Icon=/opt/PhpStorm-121.390/bin/webide.png
 Type=Application
