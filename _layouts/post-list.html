@@ -1,32 +1,72 @@
 {% include header.html %}
 <body>
 
-<div id="fb-root"></div>
-<script>(function (d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s);
-    js.id = id;
-    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=497298506979551";
-    fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+<div class="container home-container">
+    <div class="row">
 
-<div class="pure-g-r" id="layout">
-    {% include navigation-side.html %}
+        <div id="menu">
+            <ul>
+                <li><i class="entypo-home"></i><a href="#">Home</a></li>
+                <li><i class="entypo-user"></i><a href="#">John Smith</a></li>
+                <li><i class="entypo-star"></i><a href="favorites.html">Favorites</a></li>
+                <li><i class="entypo-chart-area"></i><a href="dashboard.html">Stats</a></li>
+            </ul>
+        </div>
 
-    <div class="pure-u-1">
-        <div class="content">
-            <!-- A wrapper for all the blog posts -->
+        <div class="sidebar col-md-5 col-sm-12 ">
 
-            <div class="posts">
+                <span class="menu-trigger side-writer-icon animated fadeInDown">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </span>
 
-                {{content}}
+            <!-- if the user has javascript disabled they can still use the menu -->
+            <noscript>
+                <div class="no-js-menu">
+                    <ul>
+                        <li><i class="entypo-home"></i><a href="/">Home</a></li>
+                        <li><i class="entypo-user"></i><a href="http://www.shahariaazam.com">Shaharia Azam</a></li>
+                        <li><i class="entypo-star"></i><a href="/category">Categories</a></li>
+                    </ul>
+                </div>
+            </noscript>
+            <!-- end no script -->
+
+            <div class="site-info">
+                <div class="primary-info">
+                    <h1>Shaharia Azam</h1>
+                    <p>PHP Geek, Cloud Server Expert, Tech early adopter </p>
+
+                    <p>Draw your future with your code</p>
+                </div>
+                <div class="secondary-info">
+
+                    <p><a class="btn btn-writer btn-post" href="#"><i class="entypo-doc-text"></i>Join Us</a> or <a href="#">Share your story</a></p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="col-md-12 col-sm-12 col-md-offset-5 main-content">
+
+            <div class="nav">
+                <a href="#" class="select-posts active">Posts</a>
+            </div>
+
+            {{ content }}
+
+            <div class="home-footer">
+                <a href="post.html"> About </a>
+                <i class="link-spacer"></i>
+                <a href="post.html"> Writer 2014 </a>
 
             </div>
 
-            {% include footer_text.html %}
-        </div>
-    </div>
-</div>
+        </div><!-- main content -->
+
+    </div> <!--/row -->
+
+</div> <!-- /container -->
 
 {% include footer.html %}
