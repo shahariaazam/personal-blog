@@ -2,27 +2,34 @@
 layout: homepage
 title: "Personal Blog of Shaharia Azam"
 ---
-{% for post in paginator.posts %}
-<section class="post">
-    <header class="post-header">
+<div class="home-page-posts animated fadeIn ">
 
-        <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+    {% for post in paginator.posts %}
+    <div class="post">
+        <section>
+            <div class="post-preview col-xs-10  no-gutter">
 
-        <p class="post-meta">
-            Published on {{ post.date | date: "%d %b %Y" }}
-            {% for category in post.categories %}
-            <a class="post-category post-category-{{ category }}" href="/category#{{ category }}">{{ category }}</a> &raquo;
-            {% endfor %}
-        </p>
-    </header>
+                <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+                <p style="text-align: justify">
+                    {{ post.content }}
+                </p>
 
-    <div class="post-description">
-        <p>
-            {{ post.content }}
-        </p>
+                <p class="meta">
+                    Published on {{ post.date | date: "%d %b %Y" }}
+                    {% for category in post.categories %}
+                    <a class="post-category post-category-{{ category }}" href="/category#{{ category }}">{{ category }}</a> &raquo;
+                    {% endfor %}
+                </p>
+            </div>
+
+            <div class=" col-xs-2  no-gutter">
+                <img src="/assets/img/profile-1.png" class="user-icon user-1" alt="user-image">
+            </div>
+
+        </section>
     </div>
-</section>
-{% endfor %}
+    {% endfor %}
+</div><!-- Home page posts -->
 
 <!-- Pagination links -->
 <div id="post-pagination" class="pagination">
@@ -47,4 +54,3 @@ title: "Personal Blog of Shaharia Azam"
     </ul>
 
 </div>
-
