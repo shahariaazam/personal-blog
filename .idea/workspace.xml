@@ -2,116 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9b0493d-5de3-4020-8d3b-d25b1a800850" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/404-img.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/a-great-story-cover.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/about-cover.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/adventure-cover.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/background1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/background2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/cover-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/cover-10.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/cover-11.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/cover-12.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/cover-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/cover-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/cover-4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/cover-5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/cover-6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/cover-7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/cover-8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/cover-9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/default-cover.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/easy-living-cover.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/features-cover.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/glyphicons-halflings-regulard41d.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/hacking-cover.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/its-not-always-cover.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/open-roads-cover.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/profile-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/profile-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/profile-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/profile-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/profile-4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/profile-5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/storytime-cover.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/img/ten-reasons-cover.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_includes/adsense.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/bootstrap-theme.min.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/vendor/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_includes/disqus.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_includes/fb-script.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/vendor/highlight.pack.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/vendor/jquery-1.10.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/vendor/jquery.easypiechart.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/vendor/jquery.flot.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/vendor/jquery.flot.resize.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/vendor/jquery.jpanelmenu.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/main.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/css/blog.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/css/github.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/css/socialicons.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/glyphicons-halflings-white.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/glyphicons-halflings.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/glyphicons/glyphicons-darkgrey.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/glyphicons/glyphicons-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/glyphicons/glyphicons-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/glyphicons/glyphicons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/glyphicons/glyphicons.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/glyphicons/glyphicons_2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/glyphicons/glyphicons_halflings-darkgrey.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/glyphicons/glyphicons_halflings-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/glyphicons/glyphicons_halflings-white.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/glyphicons/glyphicons_halflings.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/glyphicons/glyphicons_halflings.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/glyphicons/glyphicons_halflings_2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/icons32px.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/public/2nd-example-nth-child-css.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/public/3rd-example-nth-child-css.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/public/4th-example-nth-child-css.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/public/5th-example-nth-child-css.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/public/Bangla-setup-in-UBUNTU.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/public/Forex-Trading-Circular-Bangladesh-Bank.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/public/WhatIsDomain.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/public/add-github-service-hooks.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/public/create-public-git-in-github.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/public/ctp_on_phpstorm.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/public/ctp_on_phpstorm2-300x214.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/public/ctp_on_phpstorm_3-300x78.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/public/filezilla-2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/public/filezilla-3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/public/filezilla-4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/public/hosting-diagram-300x296.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/public/niice.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/public/nth-child-css-usage.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/public/template-practice2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/public/template_practice.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/public/zuckerbarg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/chris_blog.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/footer_bottom.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/header_top.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/highlight.pack.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/jquery-1.9.1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/jquery-cookie.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/modernizr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/template.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/tinynav.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/footer.html" afterPath="$PROJECT_DIR$/_includes/footer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/header.html" afterPath="$PROJECT_DIR$/_includes/header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/homepage.html" afterPath="$PROJECT_DIR$/_layouts/homepage.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/post-list.html" afterPath="$PROJECT_DIR$/_layouts/post-list.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/single_post.html" afterPath="$PROJECT_DIR$/_layouts/single_post.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/sass_stdlib.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/personal-blog.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
     </list>
     <ignored path="personal-blog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -141,7 +40,7 @@
       <file leaf-file-name="single_post.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_layouts/single_post.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.47674417" vertical-offset="302" max-vertical-offset="1065">
+            <state vertical-scroll-proportion="0.6444159" vertical-offset="128" max-vertical-offset="1065">
               <caret line="42" column="68" selection-start-line="42" selection-start-column="68" selection-end-line="42" selection-end-column="68" />
               <folding />
             </state>
@@ -151,7 +50,7 @@
       <file leaf-file-name="homepage.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_layouts/homepage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.208333" vertical-offset="394" max-vertical-offset="1095">
+            <state vertical-scroll-proportion="0.0" vertical-offset="394" max-vertical-offset="1095">
               <caret line="41" column="44" selection-start-line="41" selection-start-column="44" selection-end-line="41" selection-end-column="44" />
               <folding />
             </state>
@@ -161,7 +60,7 @@
       <file leaf-file-name="footer.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_includes/footer.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="825">
+            <state vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="825">
               <caret line="20" column="67" selection-start-line="20" selection-start-column="67" selection-end-line="20" selection-end-column="67" />
               <folding />
             </state>
@@ -171,7 +70,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.625" vertical-offset="0" max-vertical-offset="915">
+            <state vertical-scroll-proportion="0.0" vertical-offset="375" max-vertical-offset="915">
               <caret line="25" column="68" selection-start-line="25" selection-start-column="68" selection-end-line="25" selection-end-column="68" />
               <folding>
                 <element signature="n#style#0;n#p#0;n#div#0;n#section#0;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -183,7 +82,7 @@
       <file leaf-file-name="post-list.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_layouts/post-list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-18.75" vertical-offset="0" max-vertical-offset="1170">
+            <state vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="1170">
               <caret line="30" column="25" selection-start-line="26" selection-start-column="20" selection-end-line="30" selection-end-column="25" />
               <folding />
             </state>
@@ -257,7 +156,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -338,6 +236,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -389,6 +288,11 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
       <method />
     </configuration>
     <list size="0" />
@@ -570,15 +474,15 @@
     <frame x="45" y="-4" width="1875" height="1084" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2388664" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1376" sideWeight="0.70264316" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14167528" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1391162" sideWeight="0.70264316" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23127754" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988626" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -635,11 +539,52 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/_layouts/single_post.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1065">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/homepage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="394" max-vertical-offset="1095">
+          <caret line="41" column="44" selection-start-line="41" selection-start-column="44" selection-end-line="41" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="825">
+          <caret line="20" column="67" selection-start-line="20" selection-start-column="67" selection-end-line="20" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="375" max-vertical-offset="915">
+          <caret line="25" column="68" selection-start-line="25" selection-start-column="68" selection-end-line="25" selection-end-column="68" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#div#0;n#section#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/post-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="1170">
+          <caret line="30" column="25" selection-start-line="26" selection-start-column="20" selection-end-line="30" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2013-10-06-recursive-file-permission-only-directories-in-ubuntu.md">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -683,7 +628,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.15286624" vertical-offset="0" max-vertical-offset="785">
           <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -691,7 +635,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -715,7 +658,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="345">
           <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -723,7 +665,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="240">
           <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -731,13 +672,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="210">
           <caret line="8" column="50" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/post-list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.75" vertical-offset="0" max-vertical-offset="1170">
+        <state vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="1170">
           <caret line="30" column="25" selection-start-line="26" selection-start-column="20" selection-end-line="30" selection-end-column="25" />
           <folding />
         </state>
@@ -745,7 +685,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.625" vertical-offset="0" max-vertical-offset="915">
+        <state vertical-scroll-proportion="0.0" vertical-offset="375" max-vertical-offset="915">
           <caret line="25" column="68" selection-start-line="25" selection-start-column="68" selection-end-line="25" selection-end-column="68" />
           <folding>
             <element signature="n#style#0;n#p#0;n#div#0;n#section#0;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -755,7 +695,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/homepage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.208333" vertical-offset="394" max-vertical-offset="1095">
+        <state vertical-scroll-proportion="0.0" vertical-offset="394" max-vertical-offset="1095">
           <caret line="41" column="44" selection-start-line="41" selection-start-column="44" selection-end-line="41" selection-end-column="44" />
           <folding />
         </state>
@@ -763,7 +703,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/footer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="825">
+        <state vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="825">
           <caret line="20" column="67" selection-start-line="20" selection-start-column="67" selection-end-line="20" selection-end-column="67" />
           <folding />
         </state>
@@ -771,7 +711,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/single_post.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47674417" vertical-offset="302" max-vertical-offset="1065">
+        <state vertical-scroll-proportion="0.6444159" vertical-offset="128" max-vertical-offset="1065">
           <caret line="42" column="68" selection-start-line="42" selection-start-column="68" selection-end-line="42" selection-end-column="68" />
           <folding />
         </state>
