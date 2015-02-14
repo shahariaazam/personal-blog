@@ -42,7 +42,7 @@ p {
 /* line 35, ../sass/_type.sass */
 a {
   text-decoration: none;
-  color: rgb(136, 136, 136);
+  color: rgb(160, 156, 156);
   border-bottom: solid 1px #fafafa;
 }
 /* line 40, ../sass/_type.sass */
@@ -1464,15 +1464,18 @@ blockquote {
 
 /* line 45, ../sass/partials/_single.sass */
 .single-content {
+  padding: 30px 8%;
 }
 @media (min-width: 992px) {
   /* line 45, ../sass/partials/_single.sass */
   .single-content {
+    padding: 30px 14%;
   }
 }
 @media (min-width: 1200px) {
   /* line 45, ../sass/partials/_single.sass */
   .single-content {
+    padding: 30px 18%;
   }
 }
 /* line 53, ../sass/partials/_single.sass */
