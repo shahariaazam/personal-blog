@@ -1,0 +1,183 @@
+---
+layout: single_post
+title: Click Tracking - How to track click with Google Analytics
+date: 2012-07-13 02:54:25.000000000 +06:00
+categories:
+- Blog
+- Freelancing
+- Internet
+- Javascript
+- jQuery
+- Online Earning
+- SEO
+- Tutorial
+- Tutorial &amp; Tips
+tags: []
+status: publish
+type: post
+published: true
+meta:
+  _edit_last: '1'
+  aktt_notify_twitter: 'no'
+  sdac_ps_title: a:1:{i:0;s:0:"";}
+  sdac_ps_excerpt: a:1:{i:0;s:0:"";}
+  sdac_ps_url: a:1:{i:0;s:0:"";}
+  sdac_ps_image_url: a:1:{i:0;s:0:"";}
+  sdac_ps_slideshow_bg_color_override: ''
+  sdac_ps_slideshow_border_color_override: ''
+  sdac_ps_fx_override: ''
+  sdac_ps_timeout_override: '0'
+  sdac_ps_speed_override: '0'
+  sdac_ps_pause_override: '0'
+  sdac_ps_slide_width_override: '0'
+  sdac_ps_slide_height_override: '0'
+  sdac_ps_image_width_override: '0'
+  sdac_ps_image_height_override: '0'
+  sdac_ps_text_width_override: '0'
+  dsq_thread_id: '762607879'
+  rating: '4.8'
+  votes: '15'
+  _flare_counts: a:3:{s:7:"twitter";i:3;s:8:"facebook";i:0;s:10:"googleplus";i:0;}
+author:
+  login: shadmin
+  email: shaharia.azam@gmail.com
+  display_name: G. M. Shaharia Azam
+  first_name: G. M. Shaharia
+  last_name: Azam
+---
+<p><img class="aligncenter size-full wp-image-1391" title="Click tracking in Google Analytics" src="http://www.shahariaazam.com/wp-content/uploads/2012/07/googleanalytics_logo.jpg" alt="How to track click in Google Analytics" width="250" height="95" /></p>
+<p>Since long days I was looking for a perfect system to track clicked link in my company website and at last I made the solution.<br />
+[adsense_id="2"]<br />
+Basically it's easy to track click with the help of Google Analytics, jQuery or simple javascript. My solution has given below-</p>
+<table>
+<tbody>
+<tr>
+<td>&lt;!--Google Analytics Code--&gt;</td>
+</tr>
+<tr>
+<td></td>
+<td>&lt;script type="text/javascript"&gt;</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>var _gaq = _gaq || [];</td>
+</tr>
+<tr>
+<td></td>
+<td>_gaq.push(['_setAccount', 'UA-17736742-1']);</td>
+</tr>
+<tr>
+<td></td>
+<td>_gaq.push(['_setDomainName', 'previewict.com']);</td>
+</tr>
+<tr>
+<td></td>
+<td>_gaq.push(['_trackPageview']);</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>(function() {</td>
+</tr>
+<tr>
+<td></td>
+<td>var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;</td>
+</tr>
+<tr>
+<td></td>
+<td>ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';</td>
+</tr>
+<tr>
+<td></td>
+<td>var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);</td>
+</tr>
+<tr>
+<td></td>
+<td>})();</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>&lt;/script&gt;</td>
+</tr>
+<tr>
+<td></td>
+<td>&lt;!--End analytics--&gt;</p>
+<p>&nbsp;</td>
+</tr>
+<tr>
+<td></td>
+<td>&lt;script type="text/javascript"&gt;<br />
+//This is the extra code to track click</td>
+</tr>
+<tr>
+<td></td>
+<td>$(document).ready(function(){</td>
+</tr>
+<tr>
+<td></td>
+<td>$("a[href^='http://']").click(function(){</td>
+</tr>
+<tr>
+<td></td>
+<td>//pageTracker._trackEvent("links", "TestPurpose", $(this).attr("href"), 0);</td>
+</tr>
+<tr>
+<td></td>
+<td>//_gaq.push("links", "TestPurpose", $(this).attr("href"), "Preview ICT");</td>
+</tr>
+<tr>
+<td></td>
+<td>url = $(this).attr('href').replace(/^#/, '');</td>
+</tr>
+<tr>
+<td></td>
+<td>_gaq.push(['_trackEvent', 'WEBService', 'click', $(this).attr('href')]);</td>
+</tr>
+<tr>
+<td></td>
+<td>});</td>
+</tr>
+<tr>
+<td></td>
+<td>});</td>
+</tr>
+<tr>
+<td></td>
+<td>&lt;/script&gt;</td>
+</tr>
+</tbody>
+</table>
+<p>The last portion of the above code is the solution to track all &lt;a&gt; tag's href value which will be clicked. it's the mechanism of Google Analytics Event tracking feature. I have tested it and successfully I can track link now.</p>
+<p>[adsense_id="3"]<br />
+Before placing the code inside you &lt;head&gt; tag you must add Jquery script above all this code. You can use?<a href="https://www.previewict.com/web/js/jquery-1.6.2.min.js">https://www.previewict.com/web/js/jquery-1.6.2.min.js</a>?this link or you can use your latest jQuery framework to run the above code precisely.<br />
+After placing the code inside &lt;head&gt; tag you can be able to see the clicked event tracking report from your Google Analytics 'Custom Reporting'-&gt;Content-&gt;Event-&gt;Overview like the below image-<br />
+<img class="aligncenter size-full wp-image-1392" title="Click tracking with Google analytics" src="http://www.shahariaazam.com/wp-content/uploads/2012/07/google-analytics-outbound-links-all.png" alt="" width="870" height="431" />That's all.</p>
+<p>To know more details about Google Analytics you can follow me on the following social site-</p>
+<table>
+<tbody>
+<tr>
+<td>
+<div class="g-plus" data-width="297" data-height="69" data-href="//plus.google.com/114541364064474970092?rel=author"></div>
+</td>
+<td>
+<h4>Follow me on G+ For Bangladesh</h4>
+</td>
+</tr>
+<tr>
+<td colspan="2"><iframe style="border: none; overflow: hidden; width: 450px; height: 21px;" src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fshahariaazamweb&amp;send=false&amp;layout=button_count&amp;width=450&amp;show_faces=true&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21&amp;appId=393164007380352" frameborder="0" scrolling="no" width="320" height="240"></iframe></td>
+</tr>
+</tbody>
+</table>
+<p>Don't forget to add me in your Google+ circle and don't forget to bookmark this webpage coz I will write lots of writes up here regarding many interesting feature of Google Analytics.</p>
+<p>&nbsp;</p>

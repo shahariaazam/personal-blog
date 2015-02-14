@@ -1,0 +1,130 @@
+---
+layout: single_post
+title: How to optimize webpage by Google Page Speed Suggestions
+date: 2012-09-23 02:22:26.000000000 +06:00
+categories:
+- Blog
+- Research
+- Tutorial &amp; Tips
+- Web Development
+tags:
+- compression
+- google
+- google page speed
+- minify css
+- minify js
+- optimize web page
+- optimize webpage
+- optimize website
+- technology
+- track links
+- website compression
+status: publish
+type: post
+published: true
+meta:
+  aktt_notify_twitter: 'no'
+  _edit_last: '1'
+  _yoast_wpseo_linkdex: '68'
+  sdac_ps_title: a:1:{i:0;s:25:"Optimize your website now";}
+  sdac_ps_excerpt: a:1:{i:0;s:236:"Sometimes we need to optimize our developed webpages.
+    Today I will show you how to optimize your web pages with compression, minifying
+    css/javascript, leverage browser caching and other suggested method provided by
+    Google Page Speed?...";}
+  sdac_ps_url: a:1:{i:0;s:84:"http://www.shahariaazam.com/how-to-optimize-webpage-by-google-page-speed-suggestions";}
+  sdac_ps_image_url: a:1:{i:0;s:211:"http://www.shahariaazam.com/wp-content/themes/dandelion/functions/timthumb.php?src=http://www.shahariaazam.com/wp-content/uploads/2012/09/test-website-speed-performance-website-checking.jpg&h=280&w=450&zc=1&q=80";}
+  sdac_ps_slideshow_bg_color_override: ''
+  sdac_ps_slideshow_border_color_override: ''
+  sdac_ps_fx_override: ''
+  sdac_ps_timeout_override: '0'
+  sdac_ps_speed_override: '0'
+  sdac_ps_pause_override: '0'
+  sdac_ps_slide_width_override: '0'
+  sdac_ps_slide_height_override: '0'
+  sdac_ps_image_width_override: '0'
+  sdac_ps_image_height_override: '0'
+  sdac_ps_text_width_override: '0'
+  fb_social_plugin_settings_box_subscribe: hide
+  fb_social_plugin_settings_box_send: hide
+  fb_social_plugin_settings_box_comments: hide
+  fb_social_plugin_settings_box_recommendations_bar: hide
+  dsq_thread_id: '854927741'
+  _yoast_wpseo_focuskw: optimize web page
+  _yoast_wpseo_title: How to optimize web page by Google Page Speed
+  _yoast_wpseo_metadesc: Learn how to optimize your web pages. Optimizing web page
+    will enable you to develop world-class website. It's effective and proved.
+  _yoast_wpseo_metakeywords: optimize web page, optimize website, optimize webpage,
+    website optimization, how to optimize web page, web page compression, compress
+    website
+  rating: '5'
+  votes: '138'
+  _flare_counts: a:3:{s:7:"twitter";i:24;s:8:"facebook";i:0;s:10:"googleplus";i:2;}
+author:
+  login: shadmin
+  email: shaharia.azam@gmail.com
+  display_name: G. M. Shaharia Azam
+  first_name: G. M. Shaharia
+  last_name: Azam
+---
+<p>Sometimes we need to optimize our developed webpages. Today I will show you how to optimize your web pages with compression, minifying css/javascript, leverage browser caching and other suggested method provided by <span class="hihglight1">Google Page Speed</span>?.</p>
+<p>I am describing you about few suggestions provided by Google Page Speed and how you can optimize your web pages.</p>
+<div id="site-intro">
+<div id="site-intro-container"><span class="intro-swril swril-left">?</span><span class="intro-text">Compress resources of website</span><span class="intro-swril swril-right">?</span></div>
+</div>
+<pre class="lang:default decode:true" title="Compress resources of your website"># compress text, html, javascript, css, xml:
+AddOutputFilterByType DEFLATE text/plain
+AddOutputFilterByType DEFLATE text/html
+AddOutputFilterByType DEFLATE text/xml
+AddOutputFilterByType DEFLATE text/css
+AddOutputFilterByType DEFLATE application/xml
+AddOutputFilterByType DEFLATE application/xhtml+xml
+AddOutputFilterByType DEFLATE application/rss+xml
+AddOutputFilterByType DEFLATE application/javascript
+AddOutputFilterByType DEFLATE application/x-javascript
+
+# Or, compress certain file types by extension:
+&lt;files *.html&gt;
+SetOutputFilter DEFLATE
+&lt;/files&gt;</pre>
+<p>The above file should be write inside <span class="hihglight2">.htaccess</span>?file in your root directory of your website. The above code will compress your content (i.e: Html, JavaScript) and everything by using DEFLATE module of Apache. Just make a new file and rename it with <span class="hihglight1">.htaccess</span>?and copy/paste the above code inside your website's <span class="hihglight1">.htaccess</span>? file.</p>
+<div id="site-intro">
+<div id="site-intro-container"><span class="intro-swril swril-left">?</span><span class="intro-text">Expiration date set in Header output of Resources</span><span class="intro-swril swril-right">?</span></div>
+</div>
+<p>&nbsp;</p>
+<p>It's also very much important to set Expiration Date to each of the resources which are cachable. Just place the following code inside your <span class="hihglight1">.htaccess</span>? file.</p>
+<pre class="lang:default decode:true" title="Expiration Date set into resource's header">&lt;IfModule mod_expires.c&gt;
+
+# Enable expirations
+ExpiresActive On
+
+# Default directive
+ExpiresDefault "access plus 1 month"
+
+# My favicon
+ExpiresByType image/x-icon "access plus 1 year?
+
+# Images
+ExpiresByType image/gif "access plus 3 month"
+ExpiresByType image/png "access plus 3 month"
+ExpiresByType image/jpg "access plus 3 month"
+ExpiresByType image/jpeg "access plus 3 month"
+
+# CSS
+ExpiresByType text/css "access 3 month?
+
+# Javascript
+ExpiresByType application/javascript "access plus 1 year"
+
+&lt;/IfModule&gt;</pre>
+<p>The above code will set expiration date for all of your resources in your websites. It will increase speed of your website effectively.</p>
+<div id="site-intro">
+<div id="site-intro-container"><span class="intro-swril swril-left">?</span><span class="intro-text">Connection: Keep-alive in Apache</span><span class="intro-swril swril-right">?</span></div>
+</div>
+<p>Keeping connection alive will do a great and big thing to optimize your web page. It will make consistent connectivity with server for rendering scripts and many other resources. So add the following lines inside your <span class="hihglight1">.htaccess</span>? file.</p>
+<pre class="lang:default decode:true" title="Connection keep-alive">#Connection keep alive
+#Page Speed Optimize tutorial by Shaharia Azam (shaharia.azam@gmail.com)
+&lt;ifModule mod_headers.c&gt;
+    Header set Connection keep-alive
+&lt;/ifModule&gt;</pre>
+<p>&nbsp;</p>
+<p>The above codes will do a great things which will optimize your web pages for your visitors. It's very important for developing large web pages. You can test your site's performance from <a title="Optimize Web pages by Google Page Speed online" href="http://goo.gl/KdOLp">Google Page Speed online</a>.</p>

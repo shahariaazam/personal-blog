@@ -1,0 +1,56 @@
+---
+layout: single_post
+title: How to write in a .txt file with PHP
+date: 2010-12-12 03:30:32.000000000 +06:00
+categories:
+- Blog
+- PHP
+- Tutorial &amp; Tips
+- Web Development
+tags:
+- PHP
+status: publish
+type: post
+published: true
+meta:
+  aktt_notify_twitter: 'no'
+  _edit_last: '1'
+  sdac_ps_title: a:1:{i:0;s:0:"";}
+  sdac_ps_excerpt: a:1:{i:0;s:0:"";}
+  sdac_ps_url: a:1:{i:0;s:0:"";}
+  sdac_ps_image_url: a:1:{i:0;s:0:"";}
+  sdac_ps_slide_width_override: ''
+  sdac_ps_slide_height_override: ''
+  sdac_ps_image_width_override: ''
+  sdac_ps_image_height_override: ''
+  sdac_ps_text_width_override: ''
+  dsq_thread_id: '189161901'
+  _wp_old_slug: ''
+  _flare_counts: a:3:{s:7:"twitter";i:1;s:8:"facebook";i:0;s:10:"googleplus";i:0;}
+author:
+  login: shadmin
+  email: shaharia.azam@gmail.com
+  display_name: G. M. Shaharia Azam
+  first_name: G. M. Shaharia
+  last_name: Azam
+---
+<p>To write values or text in a .txt file you can follow the following process in PHP.</p>
+<pre>
+&lt;?php
+
+function test_function ()
+{
+return ?"Hello!";
+}
+
+$function_contents = test_function ();
+
+$file_name = "test_file.txt";
+$file_handle = fopen($file_name, 'w');
+fwrite($file_handle, $function_contents);
+fclose($file_handle);
+
+?&gt;
+</pre>
+<p>It will make a text file named test_file.txt and in that file this PHP code snippet will write 'Hello'.</p>
+<p>Thanks</p>

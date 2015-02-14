@@ -1,0 +1,53 @@
+---
+layout: single_post
+title: Common installation problem of WordPress
+date: 2010-12-13 02:27:07.000000000 +06:00
+categories:
+- Blog
+- Web Development
+- Wordpress
+tags:
+- wordpress
+status: publish
+type: post
+published: true
+meta:
+  aktt_notify_twitter: 'yes'
+  _edit_last: '1'
+  sdac_ps_title: a:1:{i:0;s:0:"";}
+  sdac_ps_excerpt: a:1:{i:0;s:0:"";}
+  sdac_ps_url: a:1:{i:0;s:0:"";}
+  sdac_ps_image_url: a:1:{i:0;s:0:"";}
+  sdac_ps_slide_width_override: ''
+  sdac_ps_slide_height_override: ''
+  sdac_ps_image_width_override: ''
+  sdac_ps_image_height_override: ''
+  sdac_ps_text_width_override: ''
+  dsq_thread_id: ''
+  aktt_tweeted: '1'
+  _wp_old_slug: ''
+  _flare_counts: a:3:{s:7:"twitter";i:1;s:8:"facebook";i:0;s:10:"googleplus";i:0;}
+author:
+  login: shadmin
+  email: shaharia.azam@gmail.com
+  display_name: G. M. Shaharia Azam
+  first_name: G. M. Shaharia
+  last_name: Azam
+---
+<h2 style="text-align: center;"><span style="font-weight: normal;">[adsense_id="2"]</span></h2>
+<h2><strong>Error#1:?Error Connecting to the Database</strong></h2>
+<p><strong>Common Cause:</strong> The database name, username, password, or host was entered incorrectly.</p>
+<p><strong>Solution</strong>: Revisit your MySQL database to obtain the database name, username and password and reenter that information.</p>
+<h2>Error#2:?Headers Already Sent</h2>
+<p><strong>Common Cause:</strong> A syntax error occurred in the wp-config.php file</p>
+<p><strong>Solution:</strong> Open the wp-config.php file in a text editor. The first line should contain only this line: &lt;?php. The last line should contain only this line: ?&gt;. Make sure that those lines contain nothing else-not even white space. Save the file changes.</p>
+<h2>Error#3:?Internal Server Error</h2>
+<p><strong>Common Cause</strong>: Permissions on PHP files are set incorrectly.</p>
+<p><strong>Solution:</strong> Try setting the permissions (chmod) on the PHP files to 666. If that change doesn?t work, set them to 644. Each web server has different settings for how it lets PHP executes on it?s servers.</p>
+<h2>Error#4:?Page Not Found</h2>
+<p><strong>Common Cause:</strong> The URL for the login page is incorrect.</p>
+<p><strong>Solution:</strong> Double-check that the URL you?re using to get to the login page is the same as the location of your WordPress installation (such as <a href="http://yourdomain.com/wp-logn.php">http://yourdomain.com/wp-logn.php</a>).</p>
+<p style="text-align: center;">[adsense_id="4"]</p>
+<h2>Error#5:?Forbidden Access:</h2>
+<p><strong>Common cause</strong>: An index.html of index.htm file exists in the WordPress installation directory.</p>
+<p><strong>Solution</strong>: Wordpress is a PHP application, so the default home page is index.php. Look in the WordPress installation folder on your web server. If there is an index.html or index.htm file in there, delete it.</p>

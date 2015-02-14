@@ -1,0 +1,106 @@
+---
+layout: single_post
+title: Send email from localhost in CakePHP using CakeEmail
+date: 2012-09-24 15:00:48.000000000 +06:00
+categories:
+- Blog
+- PHP
+- Tutorial
+- Web Development
+tags:
+- answers
+- cake email
+- cakephp
+- coding
+- email
+- PHP
+- php email
+- programming
+- send email
+- solution
+- tutorial
+- Web Application
+- Web Development
+- web development tutorial
+status: publish
+type: post
+published: true
+meta:
+  aktt_notify_twitter: 'no'
+  _edit_last: '1'
+  sdac_ps_title: a:1:{i:0;s:0:"";}
+  sdac_ps_excerpt: a:1:{i:0;s:0:"";}
+  sdac_ps_url: a:1:{i:0;s:0:"";}
+  sdac_ps_image_url: a:1:{i:0;s:0:"";}
+  sdac_ps_slideshow_bg_color_override: ''
+  sdac_ps_slideshow_border_color_override: ''
+  sdac_ps_fx_override: ''
+  sdac_ps_timeout_override: '0'
+  sdac_ps_speed_override: '0'
+  sdac_ps_pause_override: '0'
+  sdac_ps_slide_width_override: '0'
+  sdac_ps_slide_height_override: '0'
+  sdac_ps_image_width_override: '0'
+  sdac_ps_image_height_override: '0'
+  sdac_ps_text_width_override: '0'
+  fb_social_plugin_settings_box_subscribe: hide
+  fb_social_plugin_settings_box_send: hide
+  fb_social_plugin_settings_box_comments: hide
+  fb_social_plugin_settings_box_recommendations_bar: hide
+  rating: '5'
+  votes: '5'
+  dsq_thread_id: '856955019'
+  _flare_counts: a:3:{s:7:"twitter";i:2;s:8:"facebook";i:5;s:10:"googleplus";i:10;}
+  post_rating: a:1:{i:0;s:1:"5";}
+  avg_rating: '5.0'
+author:
+  login: shadmin
+  email: shaharia.azam@gmail.com
+  display_name: G. M. Shaharia Azam
+  first_name: G. M. Shaharia
+  last_name: Azam
+---
+<div id="site-intro">
+<div id="site-intro-container"><span class="intro-swril swril-left">?</span><span class="intro-text">Send email from localhost in CakePHP</span><span class="intro-swril swril-right">?</span></div>
+</div>
+<p>Sometimes it's very essential to test email transaction from localhost in raw PHP or in CakePHP. Today I will show you how to send email from localhost in CakePHP using CakeEmail Component.</p>
+<p>You must follow the following steps to make it done..</p>
+<ul class="bullet_arrow4">
+<li>Step 1: Open your localhost php.ini file. It is located inside your server's PHP directory.</li>
+<li>Step 2: Inside php.ini please add?the following code and save your modified php.ini file.
+<pre class="lang:apache decode:true" title="Add line of code inside php.ini">extension=php_openssl.dll</pre>
+</li>
+<li>Step 3: Now need to configure your CakePHP email component by adding the following lines of code in /app/Config/email.php it will override your CakeEmail's email component.
+<pre class="lang:php decode:true" title="Add following codes inside /app/Config/email.php">&lt;?php
+/*Gmail component setup in cakephp by Shaharia Azam (shaharia.azam@gmail.com)*/
+class EmailConfig {
+    public $gmail = array(
+        'host' =&gt; 'ssl://smtp.gmail.com',
+        'port' =&gt; 465,
+        'username' =&gt; 'yourUsername@gmail.com',
+        'password' =&gt; 'YourPassword',
+        'transport' =&gt; 'Smtp'
+    );
+}
+?&gt;</pre>
+</li>
+</ul>
+<p>Now this above code will use your Gmail's SMTP authentication details and it will send mail from CakePHP.</p>
+<ul class="bullet_arrow4">
+<li>Step 4: Now you need to make your own function in /app/Controllers/YourController.php file like the below
+<pre class="lang:php decode:true" title="Mail sending function inside CakePHP controller">&lt;?php 
+public function send_mail($receiver = null, $name = null, $pass = null) {
+        $confirmation_link = "http://" . $_SERVER['HTTP_HOST'] . $this-&gt;webroot . "users/login/";
+        $message = 'Hi,' . $name . ', Your Password is: ' . $pass;
+        App::uses('CakeEmail', 'Network/Email');
+        $email = new CakeEmail('gmail');
+        $email-&gt;from('yourUsername@gmail.com');
+        $email-&gt;to($receiver);
+        $email-&gt;subject('Mail Confirmation');
+        $email-&gt;send($message . " " . $confirmation_link);
+    }
+?&gt;</pre>
+<p>now you can send email through the above process.</p>
+</li>
+</ul>
+<p>If you face any problem please let me know and I will try to solve the problem. It helped me a lot that's why I wrote this tutorial for you which will tell you about How to send email from localhost in CakePHP by using CakeEmail.</p>

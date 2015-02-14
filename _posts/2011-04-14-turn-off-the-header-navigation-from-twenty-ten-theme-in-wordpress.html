@@ -1,0 +1,54 @@
+---
+layout: single_post
+title: Turn off the header navigation from Twenty Ten theme in Wordpress
+date: 2011-04-14 22:42:13.000000000 +06:00
+categories:
+- Blog
+- General
+- Themes
+- Wordpress
+tags:
+- plugins
+- theme
+- wordpress
+- wordpress tips
+- wp-theme
+status: publish
+type: post
+published: true
+meta:
+  aktt_notify_twitter: 'no'
+  _edit_last: '1'
+  sdac_ps_title: a:1:{i:0;s:0:"";}
+  sdac_ps_excerpt: a:1:{i:0;s:0:"";}
+  sdac_ps_url: a:1:{i:0;s:0:"";}
+  sdac_ps_image_url: a:1:{i:0;s:0:"";}
+  sdac_ps_slideshow_bg_color_override: ''
+  sdac_ps_slideshow_border_color_override: ''
+  sdac_ps_fx_override: ''
+  sdac_ps_timeout_override: '0'
+  sdac_ps_speed_override: '0'
+  sdac_ps_pause_override: '0'
+  sdac_ps_slide_width_override: '0'
+  sdac_ps_slide_height_override: '0'
+  sdac_ps_image_width_override: '0'
+  sdac_ps_image_height_override: '0'
+  sdac_ps_text_width_override: '0'
+  dsq_thread_id: '279418884'
+  _flare_counts: a:3:{s:7:"twitter";i:0;s:8:"facebook";i:0;s:10:"googleplus";i:0;}
+author:
+  login: shadmin
+  email: shaharia.azam@gmail.com
+  display_name: G. M. Shaharia Azam
+  first_name: G. M. Shaharia
+  last_name: Azam
+---
+<h3 style="text-align: center;"><span style="text-decoration: underline;"><span style="color: #800000;">Turn off the header navigation from Twenty Ten theme in Wordpress</span></span></h3>
+<p>Once a time one of my clients has said to turn off the header navigation bar from the twenty ten themes in wordpress. So that I try to figure it out because Twenty Ten theme has it's own functions.php for function library.</p>
+<p>After looking after I found the simple one click solution. That is described below as the following picture.</p>
+<p>[caption id="attachment_1101" align="aligncenter" width="483" caption="How to turn off the Twenty Ten themes header navigation"]<a href="http://www.shahariaazam.com/wp-content/uploads/2011/04/TwentyTenThemeHeaderNavigationTurnOff.jpg"><img class="size-full wp-image-1101" title="How to turn off the Twenty Ten themes header navigation" src="http://www.shahariaazam.com/wp-content/uploads/2011/04/TwentyTenThemeHeaderNavigationTurnOff.jpg" alt="How to turn off the Twenty Ten themes header navigation" width="483" height="225" /></a>[/caption]</p>
+<p>According to the above image, in the approx. 223 number of line you will see one 'return $args;' in the 'twentyten_page_menu_args($args)' function. Just turn off this line by giving PHP comment symbol '//'. And then you will never see the header navigation in the twenty ten theme in wordpress.</p>
+<p>Have fun!!!!</p>
+<p>&nbsp;</p>
+<p style="text-align: center;">[adsense_id="3"]</p>
+<p style="text-align: center;">[adsense_id="4"]</p>

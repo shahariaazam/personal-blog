@@ -1,0 +1,233 @@
+---
+layout: single_post
+title: Object Oriented Programming concepts makes you easy to work with OOP
+date: 2011-10-01 23:16:50.000000000 +06:00
+categories:
+- General
+- PHP
+- Web Development
+tags:
+- Object oriented programming
+- OOP
+- OOP PHP
+- PHP
+- programming
+status: publish
+type: post
+published: true
+meta:
+  _edit_last: '1'
+  aktt_notify_twitter: 'no'
+  sdac_ps_title: a:1:{i:0;s:0:"";}
+  sdac_ps_excerpt: a:1:{i:0;s:0:"";}
+  sdac_ps_url: a:1:{i:0;s:0:"";}
+  sdac_ps_image_url: a:1:{i:0;s:0:"";}
+  sdac_ps_slideshow_bg_color_override: ''
+  sdac_ps_slideshow_border_color_override: ''
+  sdac_ps_fx_override: ''
+  sdac_ps_timeout_override: '0'
+  sdac_ps_speed_override: '0'
+  sdac_ps_pause_override: '0'
+  sdac_ps_slide_width_override: '0'
+  sdac_ps_slide_height_override: '0'
+  sdac_ps_image_width_override: '0'
+  sdac_ps_image_height_override: '0'
+  sdac_ps_text_width_override: '0'
+  dsq_thread_id: '431401452'
+  _flare_counts: a:3:{s:7:"twitter";i:4;s:8:"facebook";i:0;s:10:"googleplus";i:9;}
+author:
+  login: shadmin
+  email: shaharia.azam@gmail.com
+  display_name: G. M. Shaharia Azam
+  first_name: G. M. Shaharia
+  last_name: Azam
+---
+<p><strong>OOP Concepts</strong></p>
+<p>(This is a CS108 handout on the basics terminology and structures of OOP.)</p>
+<p>Object Oriented Programming, OOP, is the must influential paradigm of our</p>
+<p>time. This handout summarizes the very basic style, elements, and vocabulary of</p>
+<p>OOP that are common to all OOP languages. OOP languages can have their</p>
+<p>obscure features, but the basic ideas of OOP are pretty straightforward.</p>
+<p>&nbsp;</p>
+<p>[adsense_id="2"]</p>
+<p>&nbsp;</p>
+<p><strong>Pre-OOP</strong></p>
+<p>In a classical compiled language like Pascal or C, data-structures and their</p>
+<p>operations are arranged logically, but it is the programmer's duty to devise and</p>
+<p>enforce these arrangements. Related functions tend to go in one file, but the basic</p>
+<p>operation of matching of the right operation with the right type of variable</p>
+<p>remains a programmer chore. In the best case, is mismatch will result in a</p>
+<p>compile time error. In the worst case, such as with a mis-cast void*, a mismatch</p>
+<p>will crash in some unpleasant way.</p>
+<p>&nbsp;</p>
+<p><strong>OOP</strong></p>
+<p>In OOP, the logical arrangement of the code is changed. Instead of an informal</p>
+<p>arrangement of functions into different files, functionality is officially and tightly</p>
+<p>grouped with the type that it operates on. The OOP style groups all the</p>
+<p>operations together according to what they operate on ? all the hash table</p>
+<p>operations are part of the hash table class, all the string operations are part of the</p>
+<p>string class. Put another way: if variables are nouns and functions are verbs,</p>
+<p>then OOP divides up everything in to categories based on the noun.</p>
+<p>Historically, there are many ways to structure code, but the OOP style has</p>
+<p>proved to work quite well. OOP yields a pretty obvious decomposition and</p>
+<p>facilitates code re-use. Most importantly, OOP keeps the role of client and</p>
+<p>implementor separate. Keeping the client side separate from the implementation</p>
+<p>side has a host of advantages. Don't just think "oh yeah, client separate from</p>
+<p>implementor ? too basic for me." It's not sexy, but it's useful. OOP formalizes</p>
+<p>and enforces the separation. It no longer requires any special skill to keep them</p>
+<p>separate; the language makes it the most convenient way to proceed.</p>
+<p>The strengths of OOP help the most when writing large programs, programming</p>
+<p>in teams, and perhaps most importantly, packaging up code into libraries for use</p>
+<p>by others.</p>
+<p>&nbsp;</p>
+<p><strong>The Grail of Code Re-Use</strong></p>
+<p>One of the obvious goals of language design has been to make it possible, finally,</p>
+<p>to stop re-creating common code for every project. Lists, hash-tables, windows,</p>
+<p>buttons ... these are things that should not have to be re-created for every project.</p>
+<p>For code re-use to really work, it must be easy to be a client of that code. OOP,</p>
+<p>and Java and its libraries in particular, appear to be our best hope of finally</p>
+<p>obtaining true code re-use.</p>
+<p>&nbsp;</p>
+<p><strong>The Clueless Client Test</strong></p>
+<p>The "clueless client test: a language has good support for code re-use if it is</p>
+<p>possible to build a library of code, give it to a client who wants that behavior, and</p>
+<p>that client can get the behavior from the library even if the client is clueless or a</p>
+<p>little clumsy. The language should encourage the right client behavior and</p>
+<p>discourage common client errors and politely alert the client if there is an error.</p>
+<p>The DArray in C, for example, fails the clueless client test: the client needs to use</p>
+<p>it exactly right, or it blows up in their face.</p>
+<p>&nbsp;</p>
+<p><strong>Class</strong></p>
+<p>The most basic concept in OOP is the Class. A class is like a type in classical</p>
+<p>language. Instead of just storing size and structural information for its data, a</p>
+<p>class also stores the operations which will apply to the data. Class = Storage +</p>
+<p>Behavior. A class is like an Abstract Data Type in Pascal or C? it creates a logical</p>
+<p>coupling between data and the operations on that data. Bundle the verbs with</p>
+<p>their nouns.</p>
+<p>&nbsp;</p>
+<p>[adsense_id="3"]</p>
+<p>[adsense_id="4"]</p>
+<p>&nbsp;</p>
+<p><strong>Object</strong></p>
+<p>An object is a run-time value that stores state and belongs to some class. So if</p>
+<p>classes are like types, then objects are like variables. Where plain old variables</p>
+<p>just have a type, objects belong to a class, and so they automatically know what</p>
+<p>operations they are capable of. The word "instance" is a synonym for "object."</p>
+<p>The phrase "an instance of the string class" to identify an run time object of the</p>
+<p>string class sounds better than "an object of the string class."</p>
+<p>&nbsp;</p>
+<p><strong>Message and Method</strong></p>
+<p>OOP uses "messages" instead of function calls. Sending a message to an object</p>
+<p>causes that object to perform an operation on itself. In that case, the object</p>
+<p>receiving the message and performing the operation is known as the "receiver".</p>
+<p>The receiver looks at the message, figures out the appropriate operation to</p>
+<p>perform, and executes that operation on itself. The receiver knows what</p>
+<p>operations it can perform, because it knows its class, and the class defines all the</p>
+<p>operations for its instances. The code corresponding to a particular message is</p>
+<p>known as the "method" for that message. A message is just a string like "Pop()".</p>
+<p>The method for Pop() is the code in the Stack class which is triggered by the</p>
+<p>"Pop()" message. The C++ specific term for method is "member function".</p>
+<p>// Traditional programming</p>
+<p>// Call the Foo() operation, and pass it the data to operate on</p>
+<p>Foo(x);</p>
+<p>// OOP programming</p>
+<p>// Send a "Foo()" message to the object -- the "receiver" of the message.</p>
+<p>// The receiver gets the message, finds the matching method code in its class,</p>
+<p>// and the method code executes on the receiver.</p>
+<p>x ? "Foo()"</p>
+<p>The method that executes depends on the class of the receiver. If you send the</p>
+<p>Print() message to a Stack object, you get the Print() method in the Stack class. If</p>
+<p>3</p>
+<p>you send that same Print() message to a HashTable object, you get the (different)</p>
+<p>Print() method in the HashTable class. It's what you say, and the class of the</p>
+<p>receiver that you say it to.</p>
+<p>&nbsp;</p>
+<p><strong>Message Send Syntax</strong></p>
+<p>In Java and C++, the syntax for sending a message looks like appending the</p>
+<p>message to the desired receiver with a dog:</p>
+<p>x.Foo(); // Send the "Foo()" message to the receiver "x"</p>
+<p>&nbsp;</p>
+<p><strong>Receiver Relative Code</strong></p>
+<p>We say that "the method executes against the receiver." This just means that the</p>
+<p>method code operates on the data of the receiver. So in code like the following...</p>
+<p>x ? "RemoveAllElements"</p>
+<p>y ? "AddElement(12)"</p>
+<p>The receiver x is, apparently, going to remove all the elements it is storing, while</p>
+<p>the receiver y is adding an element. The method operates on the receiver it is sent</p>
+<p>to ? x or y in this case. This makes methods different from plain C functions. C</p>
+<p>functions operate on the parameters they are passed. Methods, on the other</p>
+<p>hand, always have a receiver object to operate on. Parameters are only necessary</p>
+<p>for extra data.</p>
+<p>&nbsp;</p>
+<p><strong>Encapsulation</strong></p>
+<p>"Encapsulation" refers to protecting the internals of an object from direct</p>
+<p>manipulation by the client. The client can send messages, but the client cannot</p>
+<p>change the bits in the object directly. In C , it's just a convention that the client</p>
+<p>should not mess with or depend on the implementation of an Abstract Data Type</p>
+<p>(ADT). With encapsulation, the compiler enforces the separation. The class</p>
+<p>implementation can indicate which parts of the implementation are protected so</p>
+<p>that client code accessing those parts will not compile.</p>
+<p>Or put another way: the client cannot mess with the object's state ? the client can</p>
+<p>only send messages. The object's state is only touched by its own methods. Once</p>
+<p>those methods are correct and debugged, the object can be given to any client,</p>
+<p>and that client should not be able to perform an operation on the object which</p>
+<p>puts it in an incorrect state. This depends on the methods being correct which is</p>
+<p>still difficult. But when they are correct at last, the client should not be able to</p>
+<p>mess things up.</p>
+<p>&nbsp;</p>
+<p><strong>Hierarchy</strong></p>
+<p>Classes in OOP are arranged in a tree-like hierarchy. A class' "superclass" is the</p>
+<p>class above it in the tree. The classes below a class are its "subclasses." The</p>
+<p>semantics of the hierarchy are that classes have all the properties of their</p>
+<p>superclasses. In this way the hierarchy is general up towards the root and</p>
+<p>specific down towards its leaves. The hierarchy helps add logic to a collection of</p>
+<p>classes. It also enables similar classes to share properties through "inheritance"</p>
+<p>below. A hierarchy is useful if there are several classes which are fundamentally</p>
+<p>4</p>
+<p>similar to each other. In C++, a "base class" is a synonym for superclass and</p>
+<p>"derived class" is a synonym for subclass.</p>
+<p>Object</p>
+<p>Animal</p>
+<p>Bird</p>
+<p>Duck</p>
+<p>...</p>
+<p>...</p>
+<p>...</p>
+<p>...</p>
+<p>&nbsp;</p>
+<p><strong>Inheritance</strong></p>
+<p>"Inheritance" is the process by which a class inherits the properties of its</p>
+<p>superclasses. Methods in particular are inherited. When an object receives a</p>
+<p>message, it checks for a corresponding method in its class. If one is found, it is</p>
+<p>executed. Otherwise the search for a matching method travels up the tree to the</p>
+<p>superclass of the object's class. This means that a class automatically responds to</p>
+<p>all the messages of its superclasses. Most OOP languages include controls to limit</p>
+<p>which properties are inherited.</p>
+<p>&nbsp;</p>
+<p><strong>Overriding</strong></p>
+<p>When an object receives a message, it checks its own methods first before</p>
+<p>consulting its superclass. This means that if the object's class and its superclass</p>
+<p>both contain a method for a message, the object's method takes precedence. In</p>
+<p>other words, the first method found in the hierarchy takes precedence. This is</p>
+<p>known as "overriding," because it gives a class an easy way to intercept messages</p>
+<p>before they get to its superclass. Most OOP languages implement overriding</p>
+<p>based on the run-time class of objects. In C++, run-time overriding is an option</p>
+<p>invoked with the "virtual" keyword.</p>
+<p>&nbsp;</p>
+<p>[adsense_id="4"]</p>
+<p>[adsense_id="3"]</p>
+<p>&nbsp;</p>
+<p><strong>Polymorphism</strong></p>
+<p>A big word for a simple concept. Often, many classes in a program will respond</p>
+<p>to some common message. In a graphics program, many of the classes are likely</p>
+<p>to implement the method "DrawSelf()." In the program, such an object can safely</p>
+<p>be sent the DrawSelf() message without knowing its exact class since all the</p>
+<p>classes implement or inherit DrawSelf(). In other words, you can send the object</p>
+<p>a message without worrying about its class and be confident that it will just do</p>
+<p>the right thing. Polymorphism is important when the code is complex enough</p>
+<p>that you are no longer sure of the exact class of an object ? you can just send it a</p>
+<p>message and rely on it doing the right thing at run time based on its class.</p>
+<p>&nbsp;</p>
+<p>Reference: ?<span class="Apple-style-span" style="font-style: italic;"><a href="www.stanford.edu/class/cs193i/handouts2000/28OOPConcepts.pdf" target="_blank">www.stanford.edu/class/cs193i/handouts2000/28<strong>OOPConcepts</strong>.pdf</a></span></p>
+<div><cite><br />
+</cite></div>

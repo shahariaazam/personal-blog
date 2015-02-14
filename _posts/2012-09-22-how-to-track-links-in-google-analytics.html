@@ -1,0 +1,83 @@
+---
+layout: single_post
+title: How to track links in Google analytics
+date: 2012-09-22 10:50:00.000000000 +06:00
+categories:
+- Blog
+- jQuery
+- Tutorial &amp; Tips
+- Web Development
+tags:
+- event tracking
+- google
+- google analytics
+- google analytics event
+- google analytics link track
+- jQuery
+- link track
+- realtime tracking
+- realtime visitor tracking
+- track links
+- tracking
+- tracking user behavior
+- user event
+status: publish
+type: post
+published: true
+meta:
+  _yoast_wpseo_linkdex: '45'
+  aktt_notify_twitter: 'yes'
+  sdac_ps_title: a:1:{i:0;s:0:"";}
+  _edit_last: '1'
+  sdac_ps_excerpt: a:1:{i:0;s:0:"";}
+  sdac_ps_url: a:1:{i:0;s:0:"";}
+  sdac_ps_image_url: a:1:{i:0;s:0:"";}
+  sdac_ps_slideshow_bg_color_override: ''
+  sdac_ps_slideshow_border_color_override: ''
+  sdac_ps_fx_override: ''
+  sdac_ps_timeout_override: '0'
+  sdac_ps_speed_override: '0'
+  sdac_ps_pause_override: '0'
+  sdac_ps_slide_width_override: '0'
+  sdac_ps_slide_height_override: '0'
+  sdac_ps_image_width_override: '0'
+  sdac_ps_image_height_override: '0'
+  sdac_ps_text_width_override: '0'
+  fb_social_plugin_settings_box_subscribe: default
+  fb_social_plugin_settings_box_send: default
+  fb_social_plugin_settings_box_comments: default
+  fb_social_plugin_settings_box_recommendations_bar: default
+  aktt_tweeted: '1'
+  _yoast_wpseo_focuskw: google analytics link track
+  _yoast_wpseo_title: How to track links by Google Analytics
+  _yoast_wpseo_metadesc: Track links by Google analytics. Learn ealtime user activity
+    tracking for your website. Read how to use event tracking by Google analytics.
+  rating: '5'
+  votes: '100'
+  dsq_thread_id: '863509326'
+  _flare_counts: a:3:{s:7:"twitter";i:2;s:8:"facebook";i:0;s:10:"googleplus";i:0;}
+author:
+  login: shadmin
+  email: shaharia.azam@gmail.com
+  display_name: G. M. Shaharia Azam
+  first_name: G. M. Shaharia
+  last_name: Azam
+---
+<div id="site-intro">
+<div id="site-intro-container"><span class="intro-swril swril-left">?</span><span class="intro-text">Track links in Google analytics</span><span class="intro-swril swril-right">?</span></div>
+</div>
+<p>It is very important for web developer and website owner to track 'links clicked by user'. So it's now easier to track links in website by Google analytics. Google analytics has few strong and precise mechanism to track links.</p>
+<p>We will see <span class="hihglight1">how Google Analytics Event Tracking</span> works. Because this link tracking system use google analytics event tracking method.</p>
+<p>Place the following link before ending your &lt;head&gt; tag.</p>
+<pre class="lang:js decode:true ">&lt;script type="text/javascript"&gt;
+$(document).ready(function(){
+$('a').click(function(){
+_gaq.push(['_trackEvent', 'UserProfile', 'Click', $(this).text()]);
+_gaq.push(['_setCustomVar',1,'UserProfile','ProfileLayout','UserName']);
+});
+});
+&lt;/script&gt;</pre>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>Now all links which will be clicked now are being tracked by our pretty simple jquery code. [Remember: don't forget to add the Google Analytics code before &lt;/html&gt;]</p>
+<p>When a user will click on any links of the page then our code will be triggered and Google analytics will track that events. Then you can see the event report from 'Content'-&gt;'Event'.</p>

@@ -1,0 +1,101 @@
+---
+layout: single_post
+title: Find out How Many Times Remaining in PHP Programming
+date: 2012-12-18 03:58:59.000000000 +06:00
+categories:
+- Blog
+- PHP
+tags:
+- date time
+- PHP
+- php date
+status: publish
+type: post
+published: true
+meta:
+  _edit_last: '30'
+  sdac_ps_title: a:1:{i:0;s:0:"";}
+  sdac_ps_excerpt: a:1:{i:0;s:0:"";}
+  sdac_ps_url: a:1:{i:0;s:0:"";}
+  sdac_ps_image_url: a:1:{i:0;s:0:"";}
+  sdac_ps_slideshow_bg_color_override: ''
+  sdac_ps_slideshow_border_color_override: ''
+  sdac_ps_fx_override: ''
+  sdac_ps_timeout_override: '0'
+  sdac_ps_speed_override: '0'
+  sdac_ps_pause_override: '0'
+  sdac_ps_slide_width_override: '0'
+  sdac_ps_slide_height_override: '0'
+  sdac_ps_image_width_override: '0'
+  sdac_ps_image_height_override: '0'
+  sdac_ps_text_width_override: '0'
+  fb_author_post_id: '465563573502104'
+  dsq_thread_id: '979652910'
+  rating: '5'
+  votes: '3'
+  _yoast_wpseo_redirect: http://blog.shahariaazam.com/find-out-how-many-times-remaining-in-php-programming/
+  _flare_counts: a:3:{s:7:"twitter";i:1;s:8:"facebook";i:0;s:10:"googleplus";i:0;}
+author:
+  login: shadmin
+  email: shaharia.azam@gmail.com
+  display_name: G. M. Shaharia Azam
+  first_name: G. M. Shaharia
+  last_name: Azam
+---
+<p>Suppose you have a date Â 2012-12-20 and today is 2012-12-18. What's the different You can now see the 'Time Remaining to 2012-12-18' by implementing the following code.</p>
+<pre class="lang:php decode:true">/**
+     * @param null $fromTime
+     * @param null $toTime
+     * @param bool $is_simple
+     * @param array $options
+     * @return string
+     * @copyright     Shaharia Azam 2012-2020, Shaharia Azam Personal Project. (http://shahariaazam.com/)
+     * @link          http://shahariaazam.com Personal Project
+     * @license       MIT License (http://www.opensource.org/licenses/mit-license.php)
+     */
+    function TimeAfter($fromTime = null, $toTime = null,$is_simple=true, array $options=array('before'=&gt;false,'after'=&gt;false))
+    {
+        if(is_array($options)){
+            if(array_key_exists('before',$options) &amp;&amp; !empty($options['before']))
+                $before=$options['before']; else $before="";
+            if(array_key_exists('after',$options) &amp;&amp; !empty($options['after']))
+                $after=$options['after'];   else $after="";
+        }
+        if (!empty($fromTime) &amp;&amp; !empty($toTime))
+        {
+            $start_date = new DateTime($toTime);
+            $since_start = $start_date-&gt;diff(new DateTime($fromTime));
+
+            if($is_simple === true)
+            {
+                if($since_start-&gt;m == "0")
+                {
+                    return $before.$since_start-&gt;d." days".$after;
+                }
+                return $before.$since_start-&gt;m." months ".$since_start-&gt;d." days".$after;
+            }
+            else
+            {
+                if($since_start-&gt;Y == "0")
+                {
+                    return $before.$since_start-&gt;m." months ".$since_start-&gt;d." days".$after;
+                }
+                return $before.$since_start-&gt;Y." years ".$since_start-&gt;m." months ".$since_start-&gt;d." days".$after;
+            }
+
+        }
+    }</pre>
+<p>Now you can use TimeAfter() with all your required arguments.</p>
+<ul class="bullet_star">
+<li><span style="line-height: 13px;">To get PHP current date time you can use &lt;?php echo date('Y-m-d'); ?&gt;</span></li>
+<li>To compare with the previous date you can use &lt;?php echo $YourDateValue; ?&gt;</li>
+<li>To get simple format you can use the function as follows:
+<pre class="lang:php decode:true">$remaining= TimeAfter(date('Y-m-d'),'2012-12-18',true,array('before'=&gt;'after '))</pre>
+<p>Argument List respectively:</li>
+<li>$fromTime =Your Current Time<br />
+$toTime = Comparing Previous Date<br />
+$is_simple = default (true) [return simple format data]<br />
+$options=array('before'=&gt;'Remaining ', 'after'=&gt;' ');<br />
+'before' and 'after' will be placed while returning the final print.</li>
+</ul>
+<p>Happy Coding!!</p>

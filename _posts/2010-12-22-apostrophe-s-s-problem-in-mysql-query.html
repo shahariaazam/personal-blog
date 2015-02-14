@@ -1,0 +1,52 @@
+---
+layout: single_post
+title: apostrophe s ('s) problem in MySQL query
+date: 2010-12-22 02:58:43.000000000 +06:00
+categories:
+- Blog
+- PHP
+- Tutorial &amp; Tips
+- Web Development
+tags:
+- MySQL
+status: publish
+type: post
+published: true
+meta:
+  aktt_notify_twitter: 'no'
+  _edit_last: '1'
+  sdac_ps_title: a:1:{i:0;s:0:"";}
+  sdac_ps_excerpt: a:1:{i:0;s:0:"";}
+  sdac_ps_url: a:1:{i:0;s:0:"";}
+  sdac_ps_image_url: a:1:{i:0;s:0:"";}
+  sdac_ps_slide_width_override: ''
+  sdac_ps_slide_height_override: ''
+  sdac_ps_image_width_override: ''
+  sdac_ps_image_height_override: ''
+  sdac_ps_text_width_override: ''
+  _wp_old_slug: ''
+  dsq_thread_id: '195380159'
+  votes: '1'
+  rating: '5'
+  _flare_counts: a:3:{s:7:"twitter";i:1;s:8:"facebook";i:0;s:10:"googleplus";i:0;}
+author:
+  login: shadmin
+  email: shaharia.azam@gmail.com
+  display_name: G. M. Shaharia Azam
+  first_name: G. M. Shaharia
+  last_name: Azam
+---
+<p>When you will work with your Blog or something in PHP, MySQL. Then your user may enter apostrophe s ('s) into the post writing area. Then it will cause a problem for executing your MySQL Query. To execute your query for MySQL you can use mysql_real_escape_string($yourStrings).</p>
+<p>Example:</p>
+<p>&lt;form method="post" action=""&gt;<br />
+&lt;input type="text" name="user_name" value="wallpaperama's"&gt;<br />
+&lt;br /&gt;<br />
+&lt;br /&gt;<br />
+&lt;input type="submit" name="Submit" value="Submit"&gt;<br />
+&lt;/form&gt;</p>
+<p>&lt;?php<br />
+$user_name = mysql_real_escape_string ($_POST['user_name']);<br />
+?&gt;</p>
+<p>and write your mysql query. It will be executed without any error. It's more secured to post data to MySQL database.</p>
+<p>For know more details please go to <a title="PHP Function Library Official Website" href="http://www.php.net/manual/en/function.mysql-real-escape-string.php" target="_blank">mysql_real_escape_string() in PHP Function Manual</a>.</p>
+<p style="text-align: center;">[adsense_id="2"]</p>

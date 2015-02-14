@@ -1,0 +1,61 @@
+---
+layout: single_post
+title: Wordpress plugin development is a real easy work
+date: 2011-04-06 00:59:47.000000000 +06:00
+categories:
+- Blog
+- Plugins
+- Wordpress
+tags:
+- plugin development
+- wordpress
+- wordpress plugin
+- wordpress programming
+status: publish
+type: post
+published: true
+meta:
+  aktt_notify_twitter: 'no'
+  _edit_last: '1'
+  sdac_ps_title: a:1:{i:0;s:0:"";}
+  sdac_ps_excerpt: a:1:{i:0;s:0:"";}
+  sdac_ps_url: a:1:{i:0;s:0:"";}
+  sdac_ps_image_url: a:1:{i:0;s:0:"";}
+  sdac_ps_slideshow_bg_color_override: ''
+  sdac_ps_slideshow_border_color_override: ''
+  sdac_ps_fx_override: ''
+  sdac_ps_timeout_override: '0'
+  sdac_ps_speed_override: '0'
+  sdac_ps_pause_override: '0'
+  sdac_ps_slide_width_override: '0'
+  sdac_ps_slide_height_override: '0'
+  sdac_ps_image_width_override: '0'
+  sdac_ps_image_height_override: '0'
+  sdac_ps_text_width_override: '0'
+  dsq_thread_id: '271865231'
+  _flare_counts: a:3:{s:7:"twitter";i:1;s:8:"facebook";i:0;s:10:"googleplus";i:1;}
+author:
+  login: shadmin
+  email: shaharia.azam@gmail.com
+  display_name: G. M. Shaharia Azam
+  first_name: G. M. Shaharia
+  last_name: Azam
+---
+<p>[adsense_id="3"]</p>
+<p>&nbsp;</p>
+<p>It's really easy to develop wordpress plugin. Just follow some steps.</p>
+<p><strong>Step1: </strong>First make a PHP file in wp-content/plugin/ directory. Basically filename will be the name of your plugin. So try to give a unique name of your plugin.</p>
+<p>Step2: Now write down some plugin information like Plugin name, Author, description etc. It's compulsory because wordpress will detect your plugin through this information.</p>
+<p><a href="http://www.shahariaazam.com/wp-content/uploads/2011/04/FirstWordpressPlugin.gif"><img class="aligncenter size-full wp-image-1084" title="FirstWordpressPlugin" src="http://www.shahariaazam.com/wp-content/uploads/2011/04/FirstWordpressPlugin.gif" alt="" width="836" height="506" /></a></p>
+<p>step3: Now write down your main task in a function like ShowText() [according to the above image].</p>
+<p>Step4: To execute your function add an wordpress action like add_action ('the_content', 'ShowText') means when the wordpress will load the_content() function then your ShowText() function will also load.</p>
+<p>Step5: To create a menu within wordpress admin control panel for your plugin, you need to call action like add_action('admin_menu','my_plugin_menu');.. here my plugin menu is your plugin's menu function.</p>
+<p>Now you have to give some argument into the my_plugin_menu() such as 'Title, Plugin slug, menu's link output function. In this above image the output function is 'my_plugin_options().</p>
+<p>Now we have to write down the output within my_plugin_options()function.</p>
+<p>Now I hope you have a little bit concept about the plugin development. Let's start your wordpress plugin development journey.</p>
+<p>&nbsp;</p>
+<p>External Resource:</p>
+<p><a href="http://codex.wordpress.org/Writing_a_Plugin">http://codex.wordpress.org/Writing_a_Plugin</a></p>
+<p><a href="http://codex.wordpress.org/Administration_Menus">http://codex.wordpress.org/Administration_Menus</a></p>
+<p>&nbsp;</p>
+<p>[adsense_id="2"]</p>
