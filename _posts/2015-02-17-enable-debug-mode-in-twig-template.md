@@ -9,6 +9,7 @@ tags: [twig]
 Sometimes you need to see your variables or object in Twig template before printing it out. So to enable debug mode in twig template system you just need to tweak few settings upon initializing twig environment. Just follow the below code where I initiated Twig environment with debug mode.
 
 {% highlight php %}
+<?php
 $twig = new Twig_Environment($loader, array(
     'debug' => true,
     // ...
