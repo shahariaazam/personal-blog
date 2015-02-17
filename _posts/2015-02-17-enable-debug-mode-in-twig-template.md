@@ -2,7 +2,7 @@
 title: Enable Debug mode in Twig Template
 layout: single_post
 ogDescription: Learn about how to enable debug mode in Twig Template to debug your variables, object. Just add few lines of codes and you are ready to use debug in Twig template
-categories: [PHP]
+categories: [PHP, Tips]
 tags: [twig]
 ---
 
