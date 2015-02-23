@@ -2170,17 +2170,14 @@ html {
 }
 
 .pagination ul {
-  display: inline-block;
-  *display: inline;
-  margin-bottom: 0;
-  margin-left: 0;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
-  *zoom: 1;
-  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
-  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05)
+    display: inline-block;
+    margin-bottom: 0;
+    margin-left: 0;
+    /* -webkit-border-radius: 4px; */
+    -moz-border-radius: 4px;
+    /* border-radius: 4px; */
+    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    /* box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05); */
 }
 
 .pagination ul>li {
@@ -2188,13 +2185,13 @@ html {
 }
 
 .pagination ul>li>a, .pagination ul>li>span {
-  float: left;
-  padding: 4px 12px;
-  line-height: 20px;
-  text-decoration: none;
-  background-color: #B6B6B6;
-  border: 1px solid #ddd;
-  border-left-width: 0
+    float: left;
+    padding: 4px 12px;
+    line-height: 20px;
+    text-decoration: none;
+    /* background-color: #B6B6B6; */
+    /* border: 1px solid #ddd; */
+    border-left-width: 0;
 }
 
 .pagination ul>li>a:hover, .pagination ul>li>a:focus, .pagination ul>.active>a, .pagination ul>.active>span {
@@ -2214,12 +2211,17 @@ html {
 
 .pagination ul>li:first-child>a, .pagination ul>li:first-child>span {
   border-left-width: 1px;
-  -webkit-border-bottom-left-radius: 4px;
-  border-bottom-left-radius: 4px;
-  -webkit-border-top-left-radius: 4px;
-  border-top-left-radius: 4px;
-  -moz-border-radius-bottomleft: 4px;
-  -moz-border-radius-topleft: 4px
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -moz-border-radius: 4px
+}
+
+.pagination span.current-page {
+    background-color: rgb(14, 43, 46);
+    color: white;
 }
 
 .pagination ul>li:last-child>a, .pagination ul>li:last-child>span {
@@ -2363,3 +2365,9 @@ https://github.com/mojombo/tpw/blob/master/css/syntax.css */
 .highlight .vg { color: #008080 } /* Name.Variable.Global */
 .highlight .vi { color: #008080 } /* Name.Variable.Instance */
 .highlight .il { color: #009999 } /* Literal.Number.Integer.Long */
+
+.pagination-heading{
+    padding: 3px;
+    background-color: rgb(15, 45, 47);
+    color: white;
+}

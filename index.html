@@ -5,7 +5,7 @@ title: "Personal Blog of Shaharia Azam"
 <div class="home-page-posts animated fadeIn ">
 
     {% for post in paginator.posts %}
-    <div class="post">
+    <div class="post wow fadeInLeft" data-wow-offset="200"  data-wow-duration=".5s">
         <section>
             <div class="post-preview col-xs-12  no-gutter">
 
@@ -26,7 +26,7 @@ title: "Personal Blog of Shaharia Azam"
     </div>
     {% endfor %}
 </div><!-- Home page posts -->
-
+<div class="pagination-heading">Pages &raquo; </div>
 <!-- Pagination links -->
 <div id="post-pagination" class="pagination">
     <ul class="pages">
