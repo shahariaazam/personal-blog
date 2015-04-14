@@ -12,7 +12,7 @@ Here you just need to define the service factory which will get all notes by cal
 
 Don't forget to add the main angularjs library and ng resource service library in your html head tag.
 
-{% highlight %}
+{% highlight html %}
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
 <script src="https://code.angularjs.org/1.2.0-rc.2/angular-resource.js"></script>
 {% endhighlight %}
