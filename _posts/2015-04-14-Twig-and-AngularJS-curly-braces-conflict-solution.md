@@ -5,7 +5,7 @@ ogDescription: Learn how to implement AngularJS within your Twig template engine
 categories: [AngularJS, Twig]
 ---
 
-Whoever loves to work with [Twig template system][http://twig.sensiolabs.org/] for their PHP driven web application may want to implement [AngularJS](https://angularjs.org/) within Twig template. But the main problem will be Twig's curly braces. AngularJS and Twig both use _{{ }}_ inside their template to output data. So simply, it can cause trouble to work with this two lovely systems together in your application.
+Whoever loves to work with [Twig template system](http://twig.sensiolabs.org/) for their PHP driven web application may want to implement [AngularJS](https://angularjs.org/) within Twig template. But the main problem will be Twig's curly braces. AngularJS and Twig both use _{{ }}_ inside their template to output data. So simply, it can cause trouble to work with this two lovely systems together in your application.
 
 But here is the solution. According to [AngularJS $interpolateProvider](http://docs.angularjs.org/api/ng.$interpolateProvider) docs I figured out the easy solution. You can change AngularJS _{{ }}_ symbol with any other symbol. Cool! So see how you will override that configuration.
 
