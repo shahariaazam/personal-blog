@@ -13,7 +13,7 @@ When I tried to find some solutions then I figured out that Google has it's publ
 
 <script src="https://gist.github.com/shahariaazam/73c0644c6b2f2cba5ca2.js"></script>
 
-In the above script you just need to put your website URL to check and API Key what you will get from your [Google API Console](https://code.google.com/apis/console). 
+In the above script you just need to put your website URL to check and Google PageSpeed API Key what you will get from your [Google API Console](https://code.google.com/apis/console) or see the [Google PageSpeed Developer Getting Starter](https://developers.google.com/speed/docs/insights/v1/getting_started#invoking) page. 
 
 Now, run your script and you will get the following array.
 
