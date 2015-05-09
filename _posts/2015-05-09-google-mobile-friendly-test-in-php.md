@@ -20,14 +20,14 @@ Now, run your script and you will get the following array.
 {% highlight php %}
 array (size=8)
   'kind' => string 'pagespeedonline#result' (length=22)
-  'id' => string 'http://blog.shahariaazam.com/' (length=29)
+  'id' => string 'http://facebook.com/' (length=29)
   'responseCode' => int 200
   'ruleGroups' => 
     array (size=1)
       'USABILITY' => 
         array (size=2)
-          'score' => int 78
-          'pass' => boolean false
+          'score' => int 100
+          'pass' => boolean true
   'pageStats' => 
     array (size=2)
       'numberRobotedResources' => int 0
@@ -35,6 +35,6 @@ array (size=8)
   'formattedResults' => etc.........
 {% endhighlight %}
 
-From the above array ruleGroups['USABILITY']['pass'] is the actual result of your website's mobile-friendliness status. true means your website is mobile friendly and false means your failed to make your website mobile friendly. Simple.
+From the above array `$result['ruleGroups']['USABILITY']['pass']` is the actual result of your website's mobile-friendliness status. true means your website is mobile friendly and false means your failed to make your website mobile friendly. Simple.
 
 Have fun! Write comments if you need any more assistance.
