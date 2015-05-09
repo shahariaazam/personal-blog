@@ -28,33 +28,9 @@ title: "Personal Blog of Shaharia Azam"
 </div><!-- Home page posts -->
 <div class="pagination-heading">Pages &raquo; </div>
 <!-- Pagination links -->
-<div id="post-pagination" class="pagination">
-    
-    <nav>
-        <ul class="pager">
-            <li class="previous"><a href="{{ paginator.previous_page_path }}"><span aria-hidden="true">&larr;</span> Previous Page </a></li>
-            <li class="next"><a href="{{ paginator.next_page_path }}">Next Page <span aria-hidden="true">&rarr;</span></a></li>
-        </ul>
-    </nav>
-    
-    <!--<ul class="pages">
-        <li class="page">
-            {% if paginator.page == 1 %}
-            <span class="current-page">1</span>
-            {% else %}
-            <a href="/">1</a>
-            {% endif %}
-        </li>
-
-        {% for count in (2..paginator.total_pages) %}
-        <li class="page">
-            {% if count == paginator.page %}
-            <span class="current-page">{{ count }}</span>
-            {% else %}
-            <a href="/page{{ count }}">{{ count }}</a>
-            {% endif %}
-        </li>
-        {% endfor %}
-    </ul>-->
-
-</div>
+<nav>
+    <ul class="pager">
+        <li class="previous"><a href="{{ paginator.previous_page_path }}"><span aria-hidden="true">&larr;</span> Previous Page </a></li>
+        <li class="next"><a href="{{ paginator.next_page_path }}">Next Page <span aria-hidden="true">&rarr;</span></a></li>
+    </ul>
+</nav>
