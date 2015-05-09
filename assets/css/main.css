@@ -2186,6 +2186,7 @@ html {
 
 .pagination ul>li>a, .pagination ul>li>span {
     float: left;
+    margin-left: 10px;
     padding: 4px 12px;
     line-height: 20px;
     text-decoration: none;
