@@ -18,5 +18,9 @@ sudo wget https://gist.githubusercontent.com/shahariaazam/b63b72da0afbff195492/r
 sudo chmod a+x make_ubuntu_ready.sh
 sudo ./make_ubuntu_ready.sh
 {% endhighlight %}
+
 And browse ['http://localhost'](http://localhost)
+
+You can explore the shell script from the following gist. First file is the shell script that you are installing in above command prompt. Second and third *.conf* file is for sample virtual host. I embeded those 3 files for you to look at. If you think that we can add any more things please write here in comment box so I will consider that for others.
+
 <script src="https://gist.github.com/shahariaazam/f8884d4ed811eeb08b87.js"></script>
